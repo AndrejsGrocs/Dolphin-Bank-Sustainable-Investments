@@ -45,4 +45,6 @@ Or you can register a new user, and login after it.
 
 You are able to transfer money to another user using the Account Number.
 
+You can see the your Transaction History as a logged in user
+
 ```
