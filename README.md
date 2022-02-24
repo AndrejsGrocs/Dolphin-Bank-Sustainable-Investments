@@ -12,7 +12,7 @@
 
 ## Some features of the App is still under construction !!!
 ## App Responsiviness is under construction !!!
-### Smallser screens will be available soon.
+### Smaller screen responsiveness will be available soon.
 **Developers Team**
 
 Robin Skladny - Backend/Frontend : [Linked In](https://www.linkedin.com/in/robin-skladny-647a1b229/)</br>
@@ -23,7 +23,7 @@ Andrejs Grocs - Frontend/Backend : [Linked In](https://www.linkedin.com/in/andre
 ## :raised_hands: :pray: 
 **Big Special Thanks to Natalia Maca for help in design.** [Natalia Maca Website](https://nataliamaca.com/)</br>
 
-
+Feel free to contact us with your offers!
 
 This project was made on the final project phase during the studies in Digital Career Institute.
 
@@ -31,8 +31,8 @@ This project was made on the final project phase during the studies in Digital C
 
 
 
-Feel free to contact us with your offers!
 
+### Functionality Description
 
 ```
 You can test the application using this data
