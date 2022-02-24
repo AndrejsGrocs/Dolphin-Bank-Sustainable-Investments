@@ -12,7 +12,7 @@
 
 ## Some features of the App is still under construction !!!
 
-## Smaller screen responsiveness will be available soon.
+## Smaller screen responsiveness will be available soon. 
 
 
 <br/>
