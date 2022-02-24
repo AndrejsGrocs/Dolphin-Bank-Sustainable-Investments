@@ -7,8 +7,12 @@
 
 
 # Dolphin Bank Application :earth_africa: :dolphin: :finance:
-# [Run App](https://dolphin-bank.herokuapp.com/)
+# [Dolphin Bank Online](https://dolphin-bank.herokuapp.com/)
 
+
+## Some features of the App is still under construction !!!
+## App Responsiviness is under construction !!!
+### Smallser screens will be available soon.
 **Developers Team**
 
 Robin Skladny - Backend/Frontend : [Linked In](https://www.linkedin.com/in/robin-skladny-647a1b229/)</br>
@@ -18,14 +22,27 @@ Andrejs Grocs - Frontend/Backend : [Linked In](https://www.linkedin.com/in/andre
 
 ## :raised_hands: :pray: 
 **Big Special Thanks to Natalia Maca for help in design.** [Natalia Maca Website](https://nataliamaca.com/)</br>
-**and to DCI teachers: Franco Speziali, Gilles Vanhaecke, and Mwafak Arbash  for consulting us during this wonderful project.**
 
 
-This project is still under construction...
 
-This online-banking application is our, Andrejs Grocs' and Robin Skladny's, final project of the Web Development course of the Digital Career Institute's Class of 2021/2022.
+This project was made on the final project phase during the studies in Digital Career Institute.
 
-We are happy to complete this work very soon 😊!
 
-Feel free to contact us with job offers, questions or critiques...!
 
+
+
+Feel free to contact us with your offers!
+
+
+```
+You can test the application using this data
+
+login: dolphinuser@dolphinbank.com
+password: dolphin
+PIN:1234
+
+Or you can register a new user, and login after it.
+
+You are able to transfer money to another user using the Account Number.
+
+```
