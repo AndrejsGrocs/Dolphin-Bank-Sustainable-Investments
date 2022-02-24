@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.transfer-page {
+  width: 100%;
+  height: 80vh;
+
+  padding: 20px;
+  //padding-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+
+  color: rgb(0, 0, 0);
+  /*  background-color: #b5e5cf; */
+  background-color: rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.send-money-card {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  height: 78%;
+  margin-left: 25%;
+  border-radius: 30px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px;
+}
+
+.money-card-data1 {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  text-align: left;
+  width: 50%;
+}
+
+.money-card-data2 {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  float: left;
+  width: 50%;
+}
+
+.send-money-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  background: #fbc78d;
+  color: #2a3d4f;
+  cursor: pointer;
+  font-size: 0.8em;
+  padding: 1rem;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: relative;
+  width: 140px;
+  height: 48px;
+  margin-left: -70px;
+  margin-top: 100px;
+  text-decoration: none;
+
+  &:hover {
+    background: #7777aa;
+    transition: all 0.5s;
+    border-radius: 30px;
+    //box-shadow: 0px 6px 15px #dbdbeb61;
+    //padding: 1.5rem 1.5rem 0rem 1.5rem;
+    color: #ffffff;
+  }
+}
+
+input.money-card-input {
+  text-align: left;
+  width: 200%;
+  margin-top: 40px;
+  color: #2a3d4f;
+  background-color: #fbc78dde;
+  font-family: "Poppins", sans-serif;
+  padding-left: 30px;
+  border: 0;
+  outline: 0;
+
+  height: 3vh;
+  border-radius: 30px;
+  content: "Text";
+  opacity: 0.8;
+}
+
+.money-card-user-accountnumber {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: #2a3d4f;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 38px;
+  width: 100%;
+  border: 0;
+}
+
+.money-card-text {
+  text-align: left;
+  margin-top: 40px;
+  color: #2a3d4f;
+}
+
+.money-card-user-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  color: #2a3d4f;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 38px;
+  width: 100%;
+}
+
+.label-block {
+  text-align: left;
+  margin-left: 0;
+}
+
+.transaction-complited-text {
+  margin-top: -35px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  color: #2a3d4f;
+}

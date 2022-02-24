@@ -1,0 +1,892 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Landing {
+  width: 100%;
+  height: 300vh;
+  margin: 0 auto;
+  margin-top: 3.1rem;
+  //padding-top: 2rem;
+  //padding: 2rem;
+  padding-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+
+  color: rgb(0, 0, 0);
+
+  background-color: rgb(236, 246, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  background-position: 0 10%;
+
+  width: 100%;
+  height: 91vh;
+  margin: 0 auto;
+  background-image: url(../images/ocean1.jpg);
+  background-size: center;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+
+.banner-stats {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 90%;
+  margin-left: 850px;
+  margin-top: 430px;
+}
+
+h1.stats-header {
+  color: #2a3d4f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+div.stats-block {
+  height: 40px;
+  width: 250px;
+}
+
+.stats-text {
+  color: #2a3d4f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+div.bannerContent {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+
+  margin-left: 200px;
+  margin-top: 320px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+
+  top: 0;
+  z-index: 1;
+}
+
+.banner-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+img.bannerImg {
+  width: 100%;
+  height: 900px;
+  //resizemode: "contain";
+  background-position: 0 70%;
+}
+
+.bannerHeader1 {
+  color: #2a3d4f;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 4.08rem;
+  margin-left: 0 auto;
+  margin-right: auto;
+}
+
+.bannerText1 {
+  color: #2a3d4f;
+  font-family: "Lora", serif;
+  margin-right: auto;
+
+  font-size: 1.7rem;
+  width: 80%;
+  text-align: left;
+}
+
+.bannerButton1 {
+  background-color: #fbc78d;
+  color: #2a3d4f;
+  height: 50px;
+  width: 250px;
+  border-radius: 30px;
+  margin-top: 60px;
+  margin-right: auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  border: 0;
+  cursor: pointer;
+
+  &:hover {
+    background: #7777aa;
+    transition: all 0.5s;
+    border-radius: 30px;
+    //box-shadow: 0px 6px 15px #dbdbeb61;
+    //padding: 1.5rem 1.5rem 1.5rem 3rem;
+    color: #ffffff;
+  }
+}
+
+.banner-2 {
+  width: 90%;
+  text-align: center;
+  background-image: url("../../assets/images/assetmanagement1.jpeg");
+  background-size: auto;
+  background-position: center center;
+  /* background-repeat: no-repeat; */
+  height: 40%;
+  margin: 0 auto;
+}
+
+.section-image {
+  border-radius: 3%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  width: 18vw;
+  height: 38vh;
+}
+.section-button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  font-family: "Comfortaa", cursive;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  border-radius: 4px;
+  box-shadow: inset 0px 3px 5px rgba(255, 255, 255, 0.5),
+    0px 0px 10px rgba(0, 0, 0, 0.15);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 0) 5%,
+    rgba(255, 255, 255, 0.5) 6%,
+    rgba(255, 255, 255, 0) 9%,
+    rgba(255, 255, 255, 0.5) 10%,
+    rgba(255, 255, 255, 0) 17%,
+    rgba(255, 255, 255, 0.5) 19%,
+    rgba(255, 255, 255, 0) 21%
+  );
+  background-size: 150%;
+  background-position: right;
+  transition: 1s;
+}
+
+.section-button:hover {
+  background-position: left;
+  color: white;
+  box-shadow: inset 0px 3px 5px rgba(255, 255, 255, 1),
+    0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.section-button:focus {
+  outline: none;
+}
+
+.section-button:active {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  font-family: "Comfortaa", cursive;
+  color: rgba(153, 22, 22, 0.5);
+  font-size: 20px;
+  border-radius: 4px;
+  box-shadow: inset 0px 3px 5px rgba(255, 255, 255, 0.5),
+    0px 0px 10px rgba(0, 0, 0, 0.15);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(2, 0, 36, 0) 5%,
+    rgba(255, 255, 255, 0.5) 6%,
+    rgba(255, 255, 255, 0) 9%,
+    rgba(255, 255, 255, 0.5) 10%,
+    rgba(255, 255, 255, 0) 17%,
+    rgba(255, 255, 255, 0.5) 19%,
+    rgba(255, 255, 255, 0) 21%
+  );
+  background-size: 150%;
+  background-position: right;
+  transition: 0.18s;
+}
+
+.section-button:after {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  font-family: "Comfortaa", cursive;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+/* Responsive */
+
+/* Mobile */
+
+@media screen and (min-width: 100px) {
+  /*  Banner Texts and Buttons */
+
+  h1.stats-header {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  .stats-text {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 0.5rem;
+  }
+
+  .bannerText1 {
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    margin-right: auto;
+
+    font-size: 1rem;
+    width: 80%;
+    text-align: left;
+  }
+
+  /* Banner statistics info */
+
+  .banner-stats {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: 300px;
+    margin-top: 430px;
+  }
+
+  .bannerHeader1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+  }
+  /*  Banner image responsive settings */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 91vh;
+    margin: 0 auto;
+    background-image: url(../images/ocean1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+}
+
+.bannerButton1 {
+  background-color: #fbc78d;
+  color: #2a3d4f;
+  height: 40px;
+  width: 156px;
+  border-radius: 30px;
+  margin-top: 60px;
+  margin-right: auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  border: 0;
+  cursor: pointer;
+
+  &:hover {
+    background: #7777aa;
+    transition: all 0.5s;
+    border-radius: 30px;
+    //box-shadow: 0px 6px 15px #dbdbeb61;
+    //padding: 1.5rem 1.5rem 1.5rem 3rem;
+    color: #ffffff;
+  }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 481px) {
+  /*  Banner Texts and Buttons */
+
+  h1.stats-header {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+
+  .stats-text {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 0.5rem;
+  }
+
+  .bannerText1 {
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    margin-right: auto;
+
+    font-size: 1rem;
+    width: 80%;
+    text-align: left;
+  }
+
+  /* Banner statistics info */
+
+  .banner-stats {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 430px;
+  }
+
+  .bannerHeader1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+  }
+  /*  Banner image responsive settings */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 91vh;
+    margin: 0 auto;
+    background-image: url(../images/ocean1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+  .bannerButton1 {
+    background-color: #fbc78d;
+    color: #2a3d4f;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    margin-top: 150px;
+    margin-right: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+      background: #7777aa;
+      transition: all 0.5s;
+      border-radius: 30px;
+      //box-shadow: 0px 6px 15px #dbdbeb61;
+      //padding: 1.5rem 1.5rem 1.5rem 3rem;
+      color: #ffffff;
+    }
+  }
+}
+
+/* Small screens, laptops */
+
+@media screen and (min-width: 769px) {
+  /*  Banner Texts and Buttons */
+
+  h1.stats-header {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+    font-weight: 900;
+  }
+  .stats-text {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+
+  .bannerText1 {
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    margin-right: auto;
+
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: left;
+  }
+  /* Banner statistics info */
+
+  .banner-stats {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: 450px;
+    margin-top: 430px;
+  }
+
+  .bannerHeader1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  /*  Banner image responsive settings */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 91vh;
+    margin: 0 auto;
+    background-image: url(../images/ocean1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+  .bannerButton1 {
+    background-color: #fbc78d;
+    color: #2a3d4f;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-right: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+      background: #7777aa;
+      transition: all 0.5s;
+      border-radius: 30px;
+      //box-shadow: 0px 6px 15px #dbdbeb61;
+      //padding: 1.5rem 1.5rem 1.5rem 3rem;
+      color: #ffffff;
+    }
+  }
+}
+
+/* Desktops, large screens */
+
+@media screen and (min-width: 1025px) {
+  /*  Banner Texts and Buttons */
+
+  h1.stats-header {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+
+  .stats-text {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+
+  .bannerText1 {
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    margin-right: auto;
+
+    font-size: 1.3rem;
+    width: 80%;
+    text-align: left;
+  }
+  /*  Banner image responsive settings */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 91vh;
+    margin: 0 auto;
+    background-image: url(../images/ocean1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+
+  /* Banner statistics info */
+
+  .banner-stats {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 500px;
+    margin-top: 430px;
+  }
+
+  .bannerHeader1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+  }
+  /*  Banner image responsive settings */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 91vh;
+    margin: 0 auto;
+    background-image: url(../images/ocean1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+  .bannerButton1 {
+    background-color: #fbc78d;
+    color: #2a3d4f;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-right: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+      background: #7777aa;
+      transition: all 0.5s;
+      border-radius: 30px;
+      //box-shadow: 0px 6px 15px #dbdbeb61;
+      //padding: 1.5rem 1.5rem 1.5rem 3rem;
+      color: #ffffff;
+    }
+  }
+}
+
+/* Extra large screens, TV */
+
+@media screen and (min-width: 1201px) {
+  /*  Banner Texts and Buttons */
+
+  h1.stats-header {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+    font-weight: 900;
+  }
+
+  .bannerText1 {
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    margin-right: auto;
+
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: left;
+  }
+
+  /* Banner statistics info */
+
+  .banner-stats {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 500px;
+    margin-top: 430px;
+  }
+
+  .bannerHeader1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 2.8rem;
+  }
+  /*  Banner image responsive settings */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 91vh;
+    margin: 0 auto;
+    background-image: url(../images/ocean1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  /*  Banner Texts and Buttons */
+
+  h1.stats-header {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+    font-weight: 900;
+  }
+
+  .bannerText1 {
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    margin-right: auto;
+
+    font-size: 1.7rem;
+    width: 80%;
+    text-align: left;
+  }
+
+  /* Banner statistics info */
+
+  .banner-stats {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 550px;
+    margin-top: 430px;
+  }
+
+  .bannerHeader1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+  }
+  /*  Banner image responsive settings */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 91vh;
+    margin: 0 auto;
+    background-image: url(../images/ocean1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  /*  Banner Texts and Buttons */
+
+  h1.stats-header {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+    font-weight: 900;
+  }
+
+  .bannerText1 {
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    margin-right: auto;
+
+    font-size: 1.7rem;
+    width: 80%;
+    text-align: left;
+  }
+
+  /* Banner statistics info */
+
+  .banner-stats {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 750px;
+    margin-top: 430px;
+  }
+
+  .bannerHeader1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3.4rem;
+  }
+  /*  Banner image responsive settings */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 91vh;
+    margin: 0 auto;
+    background-image: url(../images/ocean1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  h1.stats-header {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+    font-weight: 900;
+  }
+
+  .bannerText1 {
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    margin-right: auto;
+
+    font-size: 1.7rem;
+    width: 80%;
+    text-align: left;
+  }
+
+  /* Banner statistics info */
+
+  .banner-stats {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 850px;
+    margin-top: 430px;
+  }
+
+  .bannerHeader1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4.08rem;
+  }
+  /*  Banner image responsive settings */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 91vh;
+    margin: 0 auto;
+    background-image: url(../images/ocean1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  h1.stats-header {
+    color: #2a3d4f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 2.2rem;
+    font-weight: 900;
+  }
+
+  .bannerText1 {
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    margin-right: auto;
+
+    font-size: 1.7rem;
+    width: 80%;
+    text-align: left;
+  }
+
+  /* Banner statistics info */
+
+  .banner-stats {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 850px;
+    margin-top: 430px;
+  }
+
+  .bannerHeader1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4.08rem;
+  }
+
+  /*  Banner image responsive settings */
+
+  .banner {
+    display: flex;
+    flex-direction: row;
+    background-position: 0 10%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 91vh;
+    margin: 0 auto;
+    background-image: url(../images/ocean1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+  }
+}

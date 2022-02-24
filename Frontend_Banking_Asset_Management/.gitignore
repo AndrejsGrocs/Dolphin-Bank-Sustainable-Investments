@@ -1,0 +1,5 @@
+/node_modules
+.env
+
+/Frontend_Banking_Asset_Management/build
+/build

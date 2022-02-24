@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.loginContainer {
+  width: 100%;
+  height: 95vh;
+  margin-top: 50px;
+  font-size: 1rem;
+  text-align: center;
+  background-image: url(./../images/turtle.jpeg);
+  background-position: 0 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 300px;
+}
+
+label {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.input-login {
+  margin-top: 20px;
+  background-color: #fbc78dde;
+  font-family: "Poppins", sans-serif;
+  padding-left: 30px;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 5vh;
+  border-radius: 30px;
+  content: "Text";
+  opacity: 0.8;
+}
+
+.input-login:before {
+  content: "Some CSS Text";
+}
+
+label.input-login:focus {
+  background-color: #ffffffde;
+}
+
+.input-login:hover {
+  background-color: #7777aade;
+}
+
+.login-button {
+  background-color: #fbc78d;
+  color: #2a3d4f;
+  height: 50px;
+  width: 250px;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  border: 0;
+  cursor: pointer;
+  opacity: 0.6;
+
+  &:hover {
+    background: #7777aa;
+    transition: all 0.5s;
+    border-radius: 30px;
+    //box-shadow: 0px 6px 15px #dbdbeb61;
+    //padding: 1.5rem 1.5rem 1.5rem 3rem;
+    color: #ffffff;
+  }
+}

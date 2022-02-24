@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.aboutUsContainer {
+  width: 100%;
+  height: 95vh;
+  margin-top: 50px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url(./../images/db-bank-AbouUs-Image-Background.png);
+  background-position: 0 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cardContainer1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.cardRobin {
+  position: relative;
+  text-align: center;
+}
+.cardAndrejs {
+  position: relative;
+  text-align: center;
+}
+
+.image-robin {
+  position: relative;
+  text-align: center;
+  width: 55%;
+}
+
+.image-andrejs {
+  position: relative;
+  text-align: center;
+  width: 55%;
+  // position: relative;
+}
+
+.about-us-card-header-andrejs {
+  position: absolute;
+  text-align: center;
+  margin-left: 120px;
+  padding-top: 20px;
+  font-weight: 800;
+}
+
+.about-us-card-header-robin {
+  position: absolute;
+  text-align: center;
+  margin-left: 120px;
+  padding-top: 20px;
+  font-weight: 800;
+}
+
+.aboutus-card-texts-links {
+  color: #2a3d4f;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  //right: 3%;
+  left: 40%;
+  //width: 300px;
+  height: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.aboutus-socmediaicon {
+  margin-top: 20px;
+  margin-right: 50px;
+  width: 40px;
+  height: 40px;
+}
+
+.about-us-card-text {
+  color: #2a3d4f;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.socialmedia-icons-block {
+  margin-top: 10px;
+  margin-left: 70px;
+}

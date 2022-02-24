@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sectionContainer {
+  width: 100%;
+  height: 100vh;
+  margin: 5rem auto;
+  padding: 20px;
+  padding-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+
+  color: rgb(0, 0, 0);
+  /*  background-color: #b5e5cf; */
+  background-color: rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.banner-3 {
+  /*   display: flex;
+  flex-direction: row; */
+  background-position: 0 10%;
+
+  width: 100%;
+  height: 30%;
+  margin: 0 auto;
+  background-image: url(../images/db-bank-Mission-Page-Image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+}
+
+.bank-priorities-banner-header {
+  color: #ffffff;
+}

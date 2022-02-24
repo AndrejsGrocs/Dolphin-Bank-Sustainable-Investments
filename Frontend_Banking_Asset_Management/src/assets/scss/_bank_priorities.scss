@@ -1,0 +1,299 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.bank-priorities {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  color: grey;
+  width: 100%;
+  height: 95vh;
+  text-align: center;
+  align-items: center;
+}
+
+.section-image1 {
+  width: 40%;
+  height: 95%;
+  object-fit: cover;
+}
+
+div.bppflex {
+  justify-content: space-between;
+  width: 600px;
+  text-align: right;
+  margin-left: 300px;
+}
+
+.bpph1 {
+  color: #2a3d4f;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 4.08rem;
+}
+
+.bppp1 {
+  text-align: right;
+  color: #2a3d4f;
+  font-family: "Lora", serif;
+  font-size: 1.4rem;
+}
+
+.sectionButton1 {
+  background-color: #fbc78d;
+  color: #2a3d4f;
+  height: 50px;
+  width: 250px;
+  border-radius: 30px;
+  margin-top: 60px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  border: 0;
+  cursor: pointer;
+
+  &:hover {
+    background: #7777aa;
+    transition: all 0.5s;
+    border-radius: 30px;
+    box-shadow: 0px 6px 15px #dbdbeb61;
+    //padding: 1.5rem 1.5rem 1.5rem 3rem;
+    color: #ffffff;
+  }
+}
+
+/* Responsive */
+
+/* Mobile */
+
+@media screen and (min-width: 320px) {
+  /* Texts and Buttons */
+
+  div.bppflex {
+    justify-content: space-between;
+    width: 400px;
+    text-align: right;
+    margin-left: 100px;
+  }
+  .bpph1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+  }
+
+  .bppp1 {
+    text-align: right;
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    font-size: 1rem;
+  }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 481px) {
+  /*  Banner Texts and Buttons */
+  div.bppflex {
+    justify-content: space-between;
+    width: 500px;
+    text-align: right;
+    margin-left: 100px;
+  }
+  .bpph1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+  }
+
+  .bppp1 {
+    text-align: right;
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    font-size: 1.2rem;
+  }
+}
+
+/* Small screens, laptops */
+
+@media screen and (min-width: 769px) {
+  /* Texts and Buttons */
+  div.bppflex {
+    justify-content: space-between;
+    width: 500px;
+    text-align: right;
+    margin-left: 100px;
+  }
+  .bpph1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+  }
+
+  .bppp1 {
+    text-align: right;
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    font-size: 1.2rem;
+  }
+}
+
+/* Desktops, large screens */
+
+@media screen and (min-width: 1025px) {
+  /* Texts and Buttons */
+  div.bppflex {
+    justify-content: space-between;
+    width: 500px;
+    text-align: right;
+    margin-left: 100px;
+  }
+  .bpph1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+  }
+
+  .bppp1 {
+    text-align: right;
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    font-size: 1.2rem;
+  }
+}
+
+/* Extra large screens, TV */
+
+@media screen and (min-width: 1201px) {
+  /* Texts and Buttons */
+  div.bppflex {
+    justify-content: space-between;
+    width: 600px;
+    text-align: right;
+    margin-left: 100px;
+  }
+  .bpph1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 3.9rem;
+  }
+
+  .bppp1 {
+    text-align: right;
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  /*  Texts and Buttons */
+  div.bppflex {
+    justify-content: space-between;
+    width: 600px;
+    text-align: right;
+    margin-left: 200px;
+  }
+  .bpph1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4.08rem;
+  }
+
+  .bppp1 {
+    text-align: right;
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  /*  Texts and Buttons */
+  div.bppflex {
+    justify-content: space-between;
+    width: 600px;
+    text-align: right;
+    margin-left: 300px;
+  }
+  .bpph1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4.08rem;
+  }
+
+  .bppp1 {
+    text-align: right;
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  /*  Texts and Buttons */
+  div.bppflex {
+    justify-content: space-between;
+    width: 600px;
+    text-align: right;
+    margin-left: 300px;
+  }
+  .bpph1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4.08rem;
+  }
+
+  .bppp1 {
+    text-align: right;
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 2100px) {
+  /*  Texts and Buttons */
+  div.bppflex {
+    justify-content: space-between;
+    width: 600px;
+    text-align: right;
+    margin-left: 300px;
+  }
+
+  .bpph1 {
+    color: #2a3d4f;
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 4.08rem;
+  }
+
+  .bppp1 {
+    text-align: right;
+    color: #2a3d4f;
+    font-family: "Lora", serif;
+    font-size: 1.4rem;
+  }
+}

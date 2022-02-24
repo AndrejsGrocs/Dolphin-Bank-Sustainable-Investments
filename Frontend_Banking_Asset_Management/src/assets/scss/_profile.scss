@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  margin: 5rem auto;
+  padding: 20px;
+  padding-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+
+  color: rgb(0, 0, 0);
+  /*  background-color: #b5e5cf; */
+  background-color: rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.account-number p {
+  display: flex;
+  margin-left: auto;
+  flex-direction: column;
+  color: #2a3d4f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  width: 20%;
+  text-align: right;
+}
+
+.profile-greeting {
+  margin: 0 auto;
+  color: #2a3d4f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.total-balance-text {
+  margin-top: 20px;
+  color: #2a3d4f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.account-balance {
+  color: #2a3d4f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.text-and-button {
+  margin-left: 16%;
+  display: flex;
+  flex-direction: row;
+
+  width: 30%;
+}
+
+.t-history-text {
+  margin-top: 50px;
+  color: #2a3d4f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.t-history-button {
+  width: 130px;
+  height: 30px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: #2a3d4f;
+}
+
+.t-history-button:hover {
+  color: #535353;
+  border-radius: 30px;
+  width: 130px;
+  height: 30px;
+  margin-left: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 6px 15px #69697061;
+  color: #2a3d4f;
+}
+
+.acc-user-data {
+  margin: 0 auto;
+  color: #2a3d4f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin-top: 100px;
+  width: 30%;
+}
+
+.history-transfer-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  background: #fbc78d;
+  color: #2a3d4f;
+  cursor: pointer;
+  font-size: 0.8em;
+  padding: 1rem;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: relative;
+  width: 140px;
+  height: 48px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-decoration: none;
+
+  &:hover {
+    background: #7777aa;
+    transition: all 0.5s;
+    border-radius: 30px;
+    //box-shadow: 0px 6px 15px #dbdbeb61;
+    //padding: 1.5rem 1.5rem 0rem 1.5rem;
+    color: #ffffff;
+  }
+}
+
+.transaction-block-to {
+  display: flex;
+  background-color: #ffffff;
+  width: 70%;
+  height: 80px;
+  margin-left: 15%;
+  border-radius: 30px;
+  margin-top: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.transaction-block-from {
+  display: flex;
+  background-color: #ffffff;
+  width: 70%;
+  height: 80px;
+  margin-left: 15%;
+  border-radius: 30px;
+  margin-top: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.transactions-list {
+  margin-top: 50px;
+}
+
+.arrow-image-green {
+  padding: 20px;
+}
+
+.received-funds {
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-left: auto;
+  color: #2a3d4f;
+  width: 20%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.sent-funds {
+  padding-right: 20px;
+  margin-top: 30px;
+  margin-left: auto;
+  color: #939aa0;
+  width: 20%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.transaction-person {
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  height: 20px;
+  color: #2a3d4f;
+  width: 20%;
+  font-size: 1.1rem;
+}
+
+.transaction-date {
+  margin-top: 30px;
+  width: 30%;
+  text-align: left;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #2a3d4f;
+  font-size: 0.9rem;
+}
+
+.to-profile-button {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  background: #fbc78d;
+  color: #2a3d4f;
+  cursor: pointer;
+  font-size: 0.8em;
+  padding: 1rem;
+  border: 0;
+  transition: all 0.5s;
+  border-radius: 30px;
+  position: relative;
+  width: 140px;
+  height: 48px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-decoration: none;
+
+  &:hover {
+    background: #7777aa;
+    transition: all 0.5s;
+    border-radius: 30px;
+    //box-shadow: 0px 6px 15px #dbdbeb61;
+    //padding: 1.5rem 1.5rem 0rem 1.5rem;
+    color: #ffffff;
+  }
+}
