@@ -6,7 +6,7 @@
 # Dolphin Bank Team Presents.
 
 
-# Dolphin Bank Application :earth_africa: :dolphin: :finance:
+# Dolphin Bank Application :earth_africa: :dolphin: :ocean:
 # [Dolphin Bank Online](https://dolphin-bank.herokuapp.com/)
 
 
