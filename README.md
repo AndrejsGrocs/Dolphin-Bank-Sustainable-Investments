@@ -11,7 +11,7 @@
 
 
 ## Some features of the App is still under construction !!!
-## App Responsiviness is under construction !!!
+
 ### Smaller screen responsiveness will be available soon.
 **Developers Team**
 
