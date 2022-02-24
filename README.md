@@ -9,6 +9,17 @@
 # Dolphin Bank Application :earth_africa: :dolphin: :finance:
 # [Run App](https://dolphin-bank.herokuapp.com/)
 
+**Developers Team**
+
+Robin Skladny - Backend/Frontend : [Linked In](https://www.linkedin.com/in/robin-skladny-647a1b229/)</br>
+
+
+Andrejs Grocs - Frontend/Backend : [Linked In](https://www.linkedin.com/in/andrejs-grocs-andrey-detochkin-ab2106141) </br>
+
+## :raised_hands: :pray: 
+**Big Special Thanks to Natalia Maca for help in design.** [Natalia Maca Website](https://nataliamaca.com/)</br>
+**and to DCI teachers: Franco Speziali, Gilles Vanhaecke, and Mwafak Arbash  for consulting us during this wonderful project.**
+
 
 This project is still under construction...
 
