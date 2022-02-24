@@ -3,7 +3,7 @@
 ![Screenshot from 2022-02-17 15-29-31](https://user-images.githubusercontent.com/79979477/154502653-9207058a-32c7-46f5-8de7-1dd29cccd6fa.png)
 
 
-# Dolphin Bank Team Presents.
+
 
 
 # Dolphin Bank Application :earth_africa: :dolphin: :ocean:
@@ -12,8 +12,12 @@
 
 ## Some features of the App is still under construction !!!
 
-### Smaller screen responsiveness will be available soon.
-**Developers Team**
+## Smaller screen responsiveness will be available soon.
+
+
+<br/>
+
+## Developers Team
 
 Robin Skladny - Backend/Frontend : [Linked In](https://www.linkedin.com/in/robin-skladny-647a1b229/)</br>
 
@@ -23,6 +27,8 @@ Andrejs Grocs - Frontend/Backend : [Linked In](https://www.linkedin.com/in/andre
 ## :raised_hands: :pray: 
 **Big Special Thanks to Natalia Maca for help in design.** [Natalia Maca Website](https://nataliamaca.com/)</br>
 
+
+
 Feel free to contact us with your offers!
 
 This project was made on the final project phase during the studies in Digital Career Institute.
@@ -30,9 +36,9 @@ This project was made on the final project phase during the studies in Digital C
 
 
 
+<br/>
 
-
-### Functionality Description
+## Functionality Description
 
 ```
 You can test the application using this data
