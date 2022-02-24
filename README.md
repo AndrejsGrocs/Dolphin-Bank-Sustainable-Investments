@@ -47,10 +47,15 @@ login: dolphinuser@dolphinbank.com
 password: dolphin
 PIN:1234
 
-Or you can register a new user, and login after it.
+Account number of Dolphin User is: DE07 100700000 2006223783
+In case if you want to send money to your account to test the functions of the app.
+Please do not take all money from there, so other users are able to check the functionality of the app too.
+
+
+Or you can register a new user, and log in after it.
 
 You are able to transfer money to another user using the Account Number.
 
-You can see the your Transaction History as a logged in user
+You can see your Transaction History as a logged-in user
 
 ```
