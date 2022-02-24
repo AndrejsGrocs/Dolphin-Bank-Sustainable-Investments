@@ -7,7 +7,7 @@ const axiosApiInstance = axios.create()
 if(process.env.NODE_ENV === 'development'){
     axiosApiInstance.defaults.baseURL = 'http://localhost:3001';
 }else{
-    axiosApiInstance.defaults.baseURL = 'https://test-deploy-banking-project.herokuapp.com';
+    axiosApiInstance.defaults.baseURL = 'https://dolphin-bank.herokuapp.com/';
 }
 
 axiosApiInstance.defaults.headers.post['Content-Type'] = 'application/json';
