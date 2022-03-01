@@ -28,7 +28,7 @@ export default function Navbar() {
             <li><Link to='/investment' activeclassname='active' className='nav-link'>Investment</Link></li>
             
          
-            <li><Link to='/aboutus' activeclassname='active' className='nav-link'>About US </Link></li> 
+            <li><Link to='/aboutus' activeclassname='active' className='nav-link'>About Us </Link></li> 
             <li><Link to='/profile' activeclassname='active' className='nav-link'> Profile</Link></li>
             {/* <li><Link to='/transfer' activeclassname='active' className='nav-link'> Transfer Money</Link></li> */}
         
@@ -41,7 +41,7 @@ export default function Navbar() {
         <li><Link to='/account'  activeclassname='active' className='nav-link'> Account</Link></li>
         <li><Link to='/loan'  activeclassname='active' className='nav-link'>Loan</Link></li>
         <li><Link to='/investment'  activeclassname='active' className='nav-link'>Investment</Link></li>
-        <li><Link to='/aboutus'  activeclassname='active' className='nav-link'>About US </Link></li> 
+        <li><Link to='/aboutus'  activeclassname='active' className='nav-link'>About Us </Link></li> 
         
         
        
