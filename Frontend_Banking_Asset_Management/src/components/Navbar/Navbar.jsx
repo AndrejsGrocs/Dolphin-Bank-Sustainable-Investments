@@ -53,6 +53,9 @@ export default function Navbar() {
         </ul>
         {!loggedIn?(
 <div className='nav-buttons-section'> 
+
+ <label className='hamburger' for="toggle">&#9776;</label>
+        <input type='checkbox' className='toggle' id='toggle'></input>
         <li><button className='button-nav-login' type="button" onClick={(e) => {
       e.preventDefault();
       window.location.href='/login';
@@ -78,8 +81,7 @@ export default function Navbar() {
         )}
           
 
-        <label className='hamburger' for="toggle">&#9776;</label>
-        <input type='checkbox' className='toggle' id='toggle'></input>
+       
            
         </nav>
     )
