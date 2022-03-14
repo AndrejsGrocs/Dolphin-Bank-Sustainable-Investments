@@ -63,10 +63,11 @@ You can see your Transaction History as a logged-in user
 
 ## Technical Description
 
-```
+
 During the process of creation and development of the "Dolphin Bank" project
 We had used a lot of libraries, technologies and dependencies like:
-         
+
+ ```        
         "React"
         "Node JS"
         "Rest API"
@@ -84,9 +85,12 @@ We had used a lot of libraries, technologies and dependencies like:
         "passport-jwt"
         "pin-encryptor"
 
-In this application user is able to register and log in using
-REST API technology. All data is stored on the server using the
-NoSQL database type using the Mongoose Library, and its models and schemas, and also MongoDB system.
+```
+<br/>
+
+### Description of some of the technologies and dependencies
+
+```
 
 All passwords and PIN codes are securely encrypted using "bcrypt",
 "pin-encryptor" technologies.
@@ -95,4 +99,38 @@ All passwords and PIN codes are securely encrypted using "bcrypt",
 and properly working for logged-in users. Also implementing
 all proper functionality of cookies files.
 
+The server is using the "dotenv" module with secured and hidden
+environment variables provided to process.env.
+.gitignore file is hiding .env file from uploading to Github
+which makes environment variables secured and provides more
+security to the server and all server data.
 ```
+
+
+
+
+## Database
+
+```
+
+In this application, user is able to register and log in using
+REST API technology. All data is stored on the server using the
+NoSQL database type using the Mongoose Library, and its models and schemas, and also MongoDB system.
+
+
+The database architecture is created with 3 routes.
+
+User Routes - storing all data about the users
+
+Transaction Routes - storing all data about transactions,
+transaction history and provide transactions between users.
+
+Admin Routes (under construction) - making available login
+as an admin and making some advanced changes like changing the  
+funds available on the user's account and canceling the transactions.
+Of course, it works only with permission from senior management. 
+
+```
+
+## Documentation is still in progress
+## ...
