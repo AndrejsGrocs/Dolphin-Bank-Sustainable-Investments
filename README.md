@@ -63,4 +63,36 @@ You can see your Transaction History as a logged-in user
 
 ## Technical Description
 
-...
+```
+During the process of creation and development of the "Dolphin Bank" project
+We had used a lot of libraries, technologies and dependencies like:
+         
+        "React"
+        "Node JS"
+        "Rest API"
+
+        "bcrypt"
+        "cookie-parser"
+        "cors"
+        "dotenv"
+        "express"
+        "express-validator"
+        "jsonwebtoken"
+        "mongoose"
+        "nodemon"
+        "passport"
+        "passport-jwt"
+        "pin-encryptor"
+
+In this application user is able to register and log in using
+REST API technology. All data is stored on the server using the
+NoSQL database type using the Mongoose Library, and its models and schemas, and also MongoDB system.
+
+All passwords and PIN codes are securely encrypted using "bcrypt",
+"pin-encryptor" technologies.
+
+"cookie-parser" storing the cookies on the client's side local storage,
+and properly working for logged-in users. Also implementing
+all proper functionality of cookies files.
+
+```
