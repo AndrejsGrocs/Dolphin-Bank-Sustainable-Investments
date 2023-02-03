@@ -12,8 +12,6 @@
     "dev": "nodemon server",
     "build": "cd Frontend_Banking_Asset_Management && npm install && npm run build"
   },
-  
-
   "repository": {
     "type": "git"
   },
