@@ -12,7 +12,7 @@
 
 ## Some features of the App is still under construction !!!
 
-# Update 03.02.2023: In Progress Now: Smaller screen responsiveness will be available soon ! 
+# Update 03.02.2023: In Progress Now: Smaller screen responsiveness and uncompleted pages will be available soon ! 
 
 
 <br/>
