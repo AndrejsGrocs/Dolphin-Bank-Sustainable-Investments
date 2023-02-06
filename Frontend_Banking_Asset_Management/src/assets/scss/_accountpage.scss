@@ -5,12 +5,14 @@
 }
 
 .account-page {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 95vh;
   margin-top: 50px;
   font-size: 1rem;
   text-align: center;
-  background-image: url(./../images/db-bank-Open-Account-Image.png);
+
   background-position: 0 0%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,24 +24,30 @@
 } */
 
 .acc-header {
-  color: rgb(255, 255, 255);
+  position: relative;
+  top: 3vh;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 3rem;
   width: 80%;
   margin: 0 auto;
   padding-top: 50px;
+
 }
 
 .account-page-text {
-  color: rgb(255, 255, 255);
+  position: relative;
+  top: 20vh;
+  color: #ffffff;
   font-family: "Comfortaa", cursive;
   width: 25%;
   font-weight: 300;
-  font-size: 2rem;
-  margin-top: 250px;
+  font-size: 1.7rem;
+
   margin-left: auto;
   margin-right: 150px;
+  
 }
 
 .acbutton1 {
@@ -65,4 +73,22 @@
     //padding: 1.5rem 1.5rem 1.5rem 3rem;
     color: #ffffff;
   }
+}
+
+
+.account-button{
+  position: relative;
+  top: 1vh;
+}
+
+
+.image-account-page{
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 95%;
+
+  object-fit: cover;
+  
+
 }

@@ -50,18 +50,20 @@
 }
 
 .about-us-card-header-andrejs {
-  position: absolute;
+  position: relative;
+  top: -2vh;
   text-align: center;
-  margin-left: 120px;
-  padding-top: 20px;
+  margin-left: 6vw;
+
   font-weight: 800;
 }
 
 .about-us-card-header-robin {
-  position: absolute;
+  position: relative;
+  top: -2vh;
   text-align: center;
-  margin-left: 120px;
-  padding-top: 20px;
+  margin-left: 6vw;
+
   font-weight: 800;
 }
 
@@ -69,7 +71,7 @@
   color: #2a3d4f;
   position: absolute;
   text-align: center;
-  top: 20%;
+  top: 10vh;
   //right: 3%;
   left: 40%;
   //width: 300px;
@@ -79,20 +81,31 @@
   font-size: 1rem;
 }
 
+.socialmedia-icons-block {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+  width: 100%;
+  top: 5vh;
+ 
+  margin-left: 3vw;
+}
+
 .aboutus-socmediaicon {
-  margin-top: 20px;
-  margin-right: 50px;
+
   width: 40px;
   height: 40px;
+;
 }
 
 .about-us-card-text {
+  position: relative;
+  top: 8vh;
+  left: 3vw;
   color: #2a3d4f;
-  margin-top: 80px;
-  margin-left: 80px;
+ 
+  
 }
 
-.socialmedia-icons-block {
-  margin-top: 10px;
-  margin-left: 70px;
-}
+
