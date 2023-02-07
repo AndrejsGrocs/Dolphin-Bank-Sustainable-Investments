@@ -3,7 +3,7 @@ import cardAndrejs1 from '../../assets/images/db-bank-AbouUs-Andrej.png'
 import aboutuslinkedin from "../../assets/images/db-bank-AbouUs-Icons-LinkedIn.png"
 import aboutusmail from "../../assets/images/db-bank-AbouUs-Icons-Email.png"
 import aboutusgit from "../../assets/images/db-bank-AbouUs-Icons-GitHub.png"
-import aboutusimage from "../../assets/images/db-bank-AbouUs-Image-Background.png";
+
 
 function AndrejsContactCard() {
   return (
