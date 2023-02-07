@@ -10,12 +10,15 @@ import Investment from "../InvestmentAssets/InvestmentAssets";
 import Loan from "../Loan/Loan";
 import SiteMapAndContacts from "../SiteMapAndContacts/SiteMapAndContacts";
 import Footer from "../../components/Footer/Footer";
+import landingimage from "../../assets/images/ocean1.jpg";
+
 
 export default function Landing() {
   return (
     <div className="box-element   Landing">
       <div className="banner">
-        {/* <img className='bannerImg' src={image3} /> */}
+      <img className="image-landing-page" src={landingimage} />
+
         <div className="bannerContent">
           <h1 className="bannerHeader1">Dolphin Bank</h1>
           <p className="bannerText1">

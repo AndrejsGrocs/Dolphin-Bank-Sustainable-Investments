@@ -6,16 +6,13 @@
 
 .aboutUsContainer {
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   margin-top: 50px;
   font-size: 1rem;
   display: flex;
   align-items: center;
   text-align: center;
-  background-image: url(./../images/db-bank-AbouUs-Image-Background.png);
-  background-position: 0 70%;
-  background-repeat: no-repeat;
-  background-size: cover;
+
   color: rgb(0, 0, 0);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -106,6 +103,17 @@
   color: #2a3d4f;
  
   
+}
+
+.image-aboutus-page{
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: 0% 100%;
+
 }
 
 
