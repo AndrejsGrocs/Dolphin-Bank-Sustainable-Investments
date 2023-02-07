@@ -1,4 +1,4 @@
-import React, {useContext} from 'react' 
+import React, {useState, useContext} from 'react' 
 import { Link } from 'react-router-dom'
 import { AppContext } from '../../App'
 import logoimg from '../../assets/images/db-bank-logo-navbar150-1.png'
@@ -8,6 +8,14 @@ import logoimg from '../../assets/images/db-bank-logo-navbar150-1.png'
 
 export default function Navbar() {
     const {loggedIn} = useContext(AppContext)
+    const [btnState, setBtnState] = useState(false)
+
+
+    let toggleClassCheck = btnState ? ' nav-list' : 'nav-list-hide' 
+
+    function handleClick(){
+        setBtnState(btnState => !btnState)
+    }
     
     return (
         <nav className='nav'>
@@ -16,11 +24,14 @@ export default function Navbar() {
            <a className='bank-logo' href="/" >{<img className='nav-logo-img' src={logoimg} alt='dolphin bank logo'></img>}</a>   
         </div>
         
-       <div></div>
+       <div hamburger-container >
+       <label className='hamburger' for="toggle" onClick={handleClick}>&#9776;</label>
+       </div>
 
-        <ul className='nav-list'>
+        <ul className={`nav-list ${btnState ? 'nav-list':'nav-list-hide'}`}>
         {loggedIn?( 
             <>
+            <li></li>
             <li><Link to='/' activeclassname='active' className='nav-link'> Bank</Link></li>
             <li><Link to='/mission' activeclassname='active' className='nav-link'> Mission</Link></li>
                <li><Link to='/account' activeclassname='active' className='nav-link'> Account</Link></li>
@@ -54,7 +65,7 @@ export default function Navbar() {
         {!loggedIn?(
 <div className='nav-buttons-section'> 
 
- <label className='hamburger' for="toggle">&#9776;</label>
+
         <input type='checkbox' className='toggle' id='toggle'></input>
         <li><button className='button-nav-login' type="button" onClick={(e) => {
       e.preventDefault();
