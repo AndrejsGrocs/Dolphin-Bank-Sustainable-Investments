@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import axios from "../../util/axiosInstance"; 
 import FormWrapper from '../../components/Common/Wrapper/wrapper'
 import ErrorMessage from '../../components/Common/ErrorMessage/errorMessage'
+import loginimage from "../../assets/images/turtle.jpeg";
 
 export default function Login() {
       const navigate = useNavigate()
@@ -40,6 +41,8 @@ export default function Login() {
     return (
        
         <div className='loginContainer'>
+              <img className="image-login-page" src={loginimage} />
+
         
             
             
