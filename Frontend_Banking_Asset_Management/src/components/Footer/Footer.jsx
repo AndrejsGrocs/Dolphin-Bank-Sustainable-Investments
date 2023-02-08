@@ -4,8 +4,8 @@ export default function Footer() {
     return (
         <footer>
             <span> 
-            <p>Andrejs Grocs / Robin Skladny 2022</p>
-            <p>&copy; All rights reserved </p></span>
+            <p className='footer-text'>Andrejs Grocs / Robin Skladny 2022</p>
+            <p className='footer-text'>&copy; All rights reserved </p></span>
         </footer>
     )
 }

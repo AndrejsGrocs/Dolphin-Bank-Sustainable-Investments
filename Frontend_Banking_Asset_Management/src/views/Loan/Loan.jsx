@@ -7,7 +7,7 @@ function Loan() {
             <div className='bppflex'>
             <h1 className='bpph1'>Loan</h1>
             <p className='bppp1'>Money for good - We finance change!</p>
-            <button className='sectionButton1' type="button" type="button" onClick={(e) => {
+            <button className='sectionButton1' type="button"  onClick={(e) => {
       e.preventDefault();
       window.location.href='/loan';
       }}>More Details</button>
