@@ -25,7 +25,7 @@ function SiteMapAndContacts() {
             
 
             <ul className='link-list'>
-            <p>Customer</p>
+            <p className='links-header'>Customer</p>
               <li className='li-list'>Support</li>
               <li>Forum</li>
               <li>Contact</li>
@@ -33,7 +33,7 @@ function SiteMapAndContacts() {
             </ul>
 
                <ul className='link-list'>
-               <p>Partners</p>
+               <p className='links-header'>Partners</p>
               <li className='li-list'>Name with link</li>
               <li>Name with link</li>
               <li>Name with link</li>
@@ -42,7 +42,7 @@ function SiteMapAndContacts() {
 
 
              <ul className='link-list'>
-               <p>Reports</p>
+               <p className='links-header'>Reports</p>
               <li className='li-list'>Report 2021</li>
               <li>Eco Projects Report</li>
               <li>Ocean Projects Report</li>
@@ -51,7 +51,7 @@ function SiteMapAndContacts() {
 
 
                 <ul className='link-list'>
-                <p>Contacts</p>
+                <p className='links-header'>Contacts</p>
                 
               <li className='li-list'>Item 1</li>
               <li>Item 1</li>

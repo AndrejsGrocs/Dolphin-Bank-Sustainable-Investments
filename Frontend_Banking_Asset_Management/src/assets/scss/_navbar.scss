@@ -209,7 +209,24 @@ img.nav-logo-img {
     right: 3vw;
     gap: 1vw;
   }
+
+  .nav-list li a{
+    font-size: 0.8rem;
+  }
+  
 }
+
+
+@media (max-width: 2000px){
+
+  .nav-list li a{
+    font-size: 0.7rem;
+  }
+  
+}
+
+
+
 
 
 
@@ -239,10 +256,8 @@ img.nav-logo-img {
     height: 48px;
 
   }
-  .nav-list {
-  
-    font-size: 0.8rem;
-
+  .nav-list li a{
+    font-size: 0.6rem;
   }
 }
 

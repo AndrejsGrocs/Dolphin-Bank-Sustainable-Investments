@@ -38,7 +38,7 @@ export default function Landing() {
 
         <div className="banner-stats">
           <div className="stats-block">
-            <h1 className="stats-header">909,360</h1>
+            <h1 className="stats-header">909,3</h1>
             <p className="stats-text">United People of DB</p>
           </div>
           <div className="stats-block">
@@ -52,7 +52,7 @@ export default function Landing() {
           </div>
 
           <div className="stats-block">
-            <h1 className="stats-header">99.3m €</h1>
+            <h1 className="stats-header">99,3m €</h1>
             <p className="stats-text">Invested in ECO projects</p>
           </div>
         </div>

@@ -23,10 +23,12 @@
 }
 
 div.bppflex2 {
+  position: relative;
+  right: 15vw;
   justify-content: space-between;
-  width: 600px;
+  width: 30vw;
   text-align: left;
-  margin-right: 300px;
+ 
 }
 
 .bpph2 {
@@ -46,12 +48,14 @@ div.bppflex2 {
 }
 
 .sectionButton2 {
+  position: relative;
+  top: 10vh;
   background-color: #fbc78d;
   color: #2a3d4f;
   height: 50px;
   width: 250px;
   border-radius: 30px;
-  margin-top: 60px;
+
 
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -67,4 +71,129 @@ div.bppflex2 {
     //padding: 1.5rem 1.5rem 1.5rem 3rem;
     color: #ffffff;
   }
+}
+
+
+
+
+/*<------------------------------------>*/
+
+/* Responsiveness section */
+
+
+
+
+
+
+
+
+
+@media (max-width: 4500px) {
+  div.bppflex2 {
+  }
+}
+
+@media (max-width: 2000px) {
+  div.bppflex2 {
+    right: 20vw;
+  }
+  .bpph2 {
+  }
+
+  .bppp2 {
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  div.bppflex2 {
+  }
+
+  .bpph2 {
+  }
+
+  .bppp2 {
+  }
+}
+
+@media (max-width: 1200px) {
+
+  div.bppflex2 {
+  }
+  .bpph2 {
+  }
+
+  .bppp2 {
+  }
+}
+
+@media (max-width: 1024px) {
+  div.bppflex2 {
+  }
+  .bpph2 {
+    font-size: 3.5rem;
+  }
+
+  .bppp2 {
+  }
+}
+
+@media (max-width: 960px) {
+  div.bppflex2 {
+    width: 40%;
+    right: 10vw;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .sectionButton2 {
+    width: 150px;
+    top: 3vh;
+  }
+
+  .credit-cards{
+    height: 50vh;
+  }
+
+  
+  div.bppflex2 {
+  }
+  .bpph2 {
+    font-size: 2.7rem;
+  }
+
+  .bppp2 {
+  }
+
+  .section-image2{
+   
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionButton2 {
+    width: 150px;
+  }
+
+  div.bppflex2 {
+
+  }
+  .bpph2 {
+    font-size: 1.8rem;
+  }
+
+  .bppp2 {
+   
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .sectionButton2 {
+    width: 110px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 200px) {
 }
