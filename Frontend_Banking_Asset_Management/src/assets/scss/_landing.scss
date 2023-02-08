@@ -35,21 +35,23 @@ body {
   width: 100%;
   height: 91vh;
   margin: 0 auto;
-  background-image: url(../images/ocean1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+
+
   margin-top: 15px;
 }
 
 .banner-stats {
+  position: relative;
+  top: 52vh;
+  left: 10vw;
   text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 90%;
-  margin-left: 20vw;
-  gap: -7vw;
-  margin-top: 30vh;
+  width: 50%;
+
+  gap: -10vw;
+
   z-index: 1;
 }
 
@@ -73,8 +75,8 @@ h1.stats-header {
 }
 
 div.stats-block {
-  height: 40px;
-  width: 250px;
+  height: 10vh;
+  width: 10vw;
 }
 
 .stats-text {
@@ -85,14 +87,15 @@ div.stats-block {
 }
 
 div.bannerContent {
+  position: relative;
+  top: 10vh;
+  left: 10vw;
   text-align: left;
   display: flex;
   flex-direction: column;
   width: 30%;
 
-  margin-left: 200px;
-  margin-top: 320px;
-  position: absolute;
+
   justify-content: center;
   align-items: center;
 
@@ -264,14 +267,24 @@ img.bannerImg {
   }
 
   .banner-stats {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 50vw;
-    margin-left: 40vw;
-    gap: 10px;
-    margin-top: 40vh;
+
+
+  }
+}
+
+@media (max-width: 3200px){
+  div.bannerContent{
+    top: -15vh;
+    left: 10vw;
+  }
+
+  .banner-stats {
+    top: 30vh;
+    left: 10vw;
+    
+
+    
+
   }
 }
 
@@ -286,24 +299,38 @@ img.bannerImg {
 
   }
 
-
-
-  /* Banner statistics info */
-
   .banner-stats {
-  
+    left: 10vw;
+    
 
-   
+    
+
+  }
+
+  div.bannerContent{
+    top: -15vh;
+    left: 10vw;
+  }
+
+  div.stats-block{
+    margin-top: -3vh;
+  }
+
+
+  .image-landing-page{
+
+  
 
   
   }
 
+
+
+
+
+
   .bannerHeader1 {
-    color: #2a3d4f;
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-size: 4.08rem;
+
   }
 
   /*  Banner image responsive settings */
@@ -323,11 +350,59 @@ img.bannerImg {
   }
 }
 
+@media (max-width: 1700px){
+  .image-landing-page{
 
+  
+    object-position: 0% 0%;
+
+  
+  }
+
+  div.bannerContent{
+    width: 35%;
+    top: -15vh;
+    left: 10vw;
+  }
+
+  h1.stats-header {
+    font-size: 1.8rem;
+    
+  }
+
+  .bannerHeader1{
+    font-size: 3.3rem;
+  }
+
+  .banner-stats {
+    left: 7vw;
+    
+
+    
+
+  }
+
+
+
+}
 
 
 @media (max-width: 1400px) {
-    /*  Banner Texts and Buttons */
+  .image-landing-page{
+  
+  
+    width: 100%;
+    height: 95%;
+    
+  
+   
+    object-position: 0% 10%;
+  
+  }
+
+    div.bannerContent{
+
+    }
 
     h1.stats-header {
   
@@ -340,6 +415,9 @@ img.bannerImg {
     /* Banner statistics info */
   
     .banner-stats {
+    
+
+    
 
     }
   
@@ -357,6 +435,22 @@ img.bannerImg {
 
 @media (max-width: 1200px) {
 
+  .bannerHeader1{
+    font-size: 2.8rem;
+  }
+
+  h1.stats-header {
+      font-size: 1.5rem;
+  }
+
+  .stats-text {
+    font-size: 0.8rem;
+
+  }
+
+  .bannerText1{
+   font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -364,101 +458,38 @@ img.bannerImg {
     /*  Banner Texts and Buttons */
 
     h1.stats-header {
-      color: #2a3d4f;
-      font-family: "Poppins", sans-serif;
-      font-weight: 300;
-      font-size: 1.8rem;
-      font-weight: 900;
+ 
     }
   
     .stats-text {
-      color: #2a3d4f;
-      font-family: "Poppins", sans-serif;
-      font-weight: 300;
-      font-size: 0.8rem;
+
     }
   
     .bannerText1 {
-      color: #2a3d4f;
-      font-family: "Lora", serif;
-      margin-right: auto;
-  
-      font-size: 1.3rem;
-      width: 80%;
-      text-align: left;
+
     }
     /*  Banner image responsive settings */
   
     .banner {
-      display: flex;
-      flex-direction: row;
-      background-position: 0 10%;
-      background-repeat: no-repeat;
-      width: 100%;
-      height: 91vh;
-      margin: 0 auto;
-      background-image: url(../images/ocean1.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin-top: 15px;
+
     }
   
     /* Banner statistics info */
   
     .banner-stats {
-      text-align: center;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      width: 40%;
-      margin-left: 500px;
-      margin-top: 430px;
+
     }
   
     .bannerHeader1 {
-      color: #2a3d4f;
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap");
-      font-family: "Poppins", sans-serif;
-      font-weight: 900;
-      font-size: 2.5rem;
+
     }
     /*  Banner image responsive settings */
   
     .banner {
-      display: flex;
-      flex-direction: row;
-      background-position: 0 10%;
-      background-repeat: no-repeat;
-      width: 100%;
-      height: 91vh;
-      margin: 0 auto;
-      background-image: url(../images/ocean1.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin-top: 15px;
+
     }
     .bannerButton1 {
-      background-color: #fbc78d;
-      color: #2a3d4f;
-      height: 50px;
-      width: 200px;
-      border-radius: 30px;
-      margin-top: 60px;
-      margin-right: auto;
-      font-family: "Poppins", sans-serif;
-      font-weight: 300;
-      font-size: 17px;
-      border: 0;
-      cursor: pointer;
-  
-      &:hover {
-        background: #7777aa;
-        transition: all 0.5s;
-        border-radius: 30px;
-        //box-shadow: 0px 6px 15px #dbdbeb61;
-        //padding: 1.5rem 1.5rem 1.5rem 3rem;
-        color: #ffffff;
-      }
+
     }
   }
   
@@ -469,11 +500,11 @@ img.bannerImg {
     /*  Banner Texts and Buttons */
 
     h1.stats-header {
-      color: #2a3d4f;
-      font-family: "Poppins", sans-serif;
-      font-weight: 300;
-      font-size: 1.7rem;
-      font-weight: 900;
+
+  
+      font-size: 1.3rem;
+      
+    
     }
     .stats-text {
       color: #2a3d4f;
@@ -494,13 +525,8 @@ img.bannerImg {
     /* Banner statistics info */
   
     .banner-stats {
-      text-align: center;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      width: 20%;
-      margin-left: 450px;
-      margin-top: 430px;
+      top: 23vh;
+
     }
   
     .bannerHeader1 {
@@ -582,13 +608,7 @@ img.bannerImg {
     /* Banner statistics info */
   
     .banner-stats {
-      text-align: center;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      width: 50%;
-      margin: 0 auto;
-      margin-top: 430px;
+   
     }
   
     .bannerHeader1 {
@@ -676,13 +696,7 @@ img.bannerImg {
     /* Banner statistics info */
   
     .banner-stats {
-      text-align: center;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      width: 20%;
-      margin-left: 300px;
-      margin-top: 430px;
+
     }
   
     .bannerHeader1 {

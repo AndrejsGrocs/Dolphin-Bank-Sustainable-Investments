@@ -8,7 +8,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 14vh;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
@@ -193,7 +193,15 @@ img.nav-logo-img {
   display: none;
 }
 
+
+
+
+
 /* Responsiveness section */
+
+
+
+
 
 @media (max-width: 4500px) {
   .nav-buttons-section {
@@ -202,6 +210,9 @@ img.nav-logo-img {
     gap: 1vw;
   }
 }
+
+
+
 
 @media (max-width: 1400px) {
 }
@@ -251,7 +262,7 @@ img.nav-logo-img {
 
   }
   .nav {
-    height: 40vh;
+    height: 200px;
 }
 
   .nav-list {
@@ -267,6 +278,12 @@ img.nav-logo-img {
     gap: 1.5vh;
 
 
+  }
+
+  .nav-buttons-section {
+ 
+    right: 10vw;
+    gap: 1vw;
   }
 
   .nav-list-hide {
