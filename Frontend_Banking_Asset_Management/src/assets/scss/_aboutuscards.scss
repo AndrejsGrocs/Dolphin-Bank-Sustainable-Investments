@@ -299,7 +299,7 @@
   
   .aboutus-card-texts-links-robin{
     top: 43vh;
-    left: 42vw;
+    left: 43vw;
     width: 40vw;
   }
 
@@ -342,12 +342,84 @@
 @media (max-width: 480px){
 
   .image-robin{
-    width: 80%;
+    width: 85%;
   
   }
 
   .image-andrejs{
-    width: 80%;
+    width: 85%;
 
   }
+
+  .aboutus-card-texts-links-robin{
+    width: 60vw;
+    left: 37vw;
+  
+  }
+
+  .aboutus-card-texts-links-andrejs{
+    width: 60vw;
+    left: 37vw;
+   
+  }
+
+  .about-us-card-header-andrejs{
+    font-size: 1.2rem;
+  }
+
+  .about-us-card-header-robin{
+    font-size: 1.2rem;
+  } 
+
+  .about-us-card-text-andrejs{
+    font-size: 0.7rem;
+  }
+
+  .about-us-card-text-robin{
+    font-size: 0.7rem;
+  }
+
+  .socialmedia-icons-block-andrejs{
+    left: 15vw;
+  }
+
+  .socialmedia-icons-block-robin{
+    left: 15vw;
+  }
+}
+
+
+@media (max-width: 320px){
+
+  .aboutus-card-texts-links-robin{
+   top: 46vh;
+  
+  }
+
+  .aboutus-card-texts-links-andrejs{
+    top: 79vh;
+   
+  }
+
+  .about-us-card-header-andrejs{
+    font-size: 1rem;
+  }
+
+  .about-us-card-header-robin{
+    font-size: 1rem;
+  } 
+
+  .about-us-card-text-andrejs{
+    font-size: 0.6rem;
+  }
+
+  .about-us-card-text-robin{
+    font-size: 0.6rem;
+  }
+
+  .aboutus-socmediaicon {
+    width: 25px;
+    height: 25px;
+  }
+
 }

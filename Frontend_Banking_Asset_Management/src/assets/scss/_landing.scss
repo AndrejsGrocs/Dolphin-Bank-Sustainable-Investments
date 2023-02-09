@@ -9,10 +9,8 @@
   width: 100%;
   height: 300vh;
   margin: 0 auto;
-  margin-top: 3.1rem;
-  //padding-top: 2rem;
-  //padding: 2rem;
-  padding-top: 1rem;
+
+
   font-size: 1rem;
   text-align: center;
 
@@ -30,7 +28,7 @@ body {
 .banner {
   display: flex;
   flex-direction: row;
-  background-position: 0 20%;
+
   background-repeat: no-repeat;
   width: 100%;
   height: 91vh;
@@ -58,12 +56,15 @@ body {
 
 .image-landing-page{
   position: absolute;
-
+  
   width: 100%;
-  height: 95%;
+  height: 100%;
+  margin-top: -1.5vh;
+  object-position: 50% 20%;
 
   object-fit: cover;
-  object-position: 0% 0%;
+
+ 
 
 }
 
@@ -265,8 +266,17 @@ img.bannerImg {
 
 
 @media (max-width: 4500px){
+
+  .image-landing-page{
+  
+ 
+    
+  
+   
+
+  
+  }
   .banner{
-    object-fit: cover;
   }
 
   .banner-stats {
@@ -321,7 +331,7 @@ img.bannerImg {
 
 
   .image-landing-page{
- 
+   
   }
 
 
@@ -498,6 +508,7 @@ img.bannerImg {
 @media (max-width: 768px) {
   
   .image-landing-page{
+    margin-top: -1.5vh;
     object-position: 50% 50%;
   }
 

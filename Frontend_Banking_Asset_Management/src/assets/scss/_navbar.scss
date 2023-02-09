@@ -16,6 +16,7 @@
   align-items: center;
   color: rgb(70, 70, 70);
   z-index: 2;
+  opacity: 0.9;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
@@ -278,6 +279,7 @@ img.nav-logo-img {
   }
   .nav {
     height: 200px;
+    opacity: 0.7;
 }
 
   .nav-list {
@@ -290,7 +292,7 @@ img.nav-logo-img {
     margin-top: 5vh;
     justify-content: space-around;
     text-align: center;
-    gap: 1.5vh;
+    gap: 5px;
 
 
   }
