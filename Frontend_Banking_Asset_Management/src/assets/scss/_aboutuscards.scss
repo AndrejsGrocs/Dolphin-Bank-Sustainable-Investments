@@ -8,14 +8,19 @@
 
 .cardAndrejs {
   position: fixed;
-  display: flex;
-  flex-direction: column;
- align-items: center;
+
   }
   
   
   .cardRobin {
     position: fixed;
+  
+  }
+
+
+  .aboutus-socmediaicon {
+    width: 40px;
+    height: 40px;
   }
 
 
@@ -26,8 +31,8 @@
 
 .image-andrejs {
   position: relative;
-  top: 8vh;
-  left:20vw;
+  top: 3vh;
+  left:15vw;
   font-size: 1.5rem;
   text-align: center;
   width: 30vw;
@@ -36,14 +41,14 @@
 
 .aboutus-card-texts-links-andrejs {
   color: #2a3d4f;
-  position: relative;
-  text-align: right;
-  top: -10vh;
-  left: 25vw;
+  position: fixed;
+  text-align: center;
+  top: 50vh;
+  left: 20vw;
   width: 30vw;
   height: 20vh;
   font-family: "Poppins", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
 
 }
 
@@ -73,6 +78,8 @@
   position: relative;
   display: flex;
   flex-direction: row;
+  top: 1vh;
+  left: 7vw;
   gap: 3vw;
 
 
@@ -95,8 +102,9 @@
 
 .image-robin {
   position: relative;
-  top: 8vh;
-  left: 60vw;
+  top: 3vh;
+  left: 55vw;
+  font-size: 1.5rem;
   text-align: center;
   width: 30vw;
 }
@@ -106,20 +114,22 @@
   color: #2a3d4f;
   position: fixed;
   text-align: center;
-  top: 65%;
-  left: 25%;
-  height: 100px;
+  top: 50vh;
+  left: 60vw;
+  width: 30vw;
+  height: 20vh;
   font-family: "Poppins", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 1rem;
 }
 
 
 .about-us-card-header-robin {
-  position: fixed;
-  top: 50vh;
-  right: 32vw;
-  font-size: 1.5em;
+  position: relative;
+  text-align: right;
+
+  
+  font-size: 1.8em;
   text-align: center;
   font-weight: 800;
  
@@ -129,24 +139,20 @@
 
 
 .about-us-card-text-robin {
-  position: fixed;
-  top: 57vh;
-  right: 32vw;
-  font-size: 1.5em;
-  text-align: center;
+  position: relative;
+
+
   color: #2a3d4f;
-  font-weight: 800;
 }
 
 
 .socialmedia-icons-block-robin {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: row;
+  top: 1vh;
+  left: 7vw;
   gap: 3vw;
-  width: 30%;
-  top: -3vh;
-  left: 35vw;
 
 }
 
@@ -155,9 +161,193 @@
 
 
 
-.aboutus-socmediaicon {
-  width: 40px;
-  height: 40px;
+
+
+
+
+
+
+
+
+
+/*<------------------------------------>*/
+
+
+
+/* Responsiveness section */
+
+
+@media (max-width: 4500px){
+
+}
+
+@media (max-width: 2000px){
+  
 }
 
 
+@media (max-width: 1700px){
+  
+  .aboutus-card-texts-links-andrejs{
+      left: 21vw;
+  }
+
+  .aboutus-card-texts-links-robin{
+      left: 61vw;
+
+  }
+}
+
+
+@media (max-width: 1400px){
+  .about-us-card-header-andrejs{
+    font-size: 1.5rem;
+  }
+
+  .about-us-card-header-robin{
+    font-size: 1.5rem;
+  } 
+
+  .aboutus-socmediaicon {
+    width: 35px;
+    height: 35px;
+  }
+
+
+}
+
+
+@media (max-width: 1024px){
+
+  .about-us-card-header-andrejs{
+    font-size: 1.2rem;
+  }
+
+  .about-us-card-header-robin{
+    font-size: 1.2rem;
+  } 
+
+  .about-us-card-text-andrejs{
+    font-size: 0.8rem;
+  }
+
+  .about-us-card-text-robin{
+    font-size: 0.8rem;
+  }
+
+  .aboutus-socmediaicon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .socialmedia-icons-block-andrejs{
+    left: 6vw;
+  }
+
+  .socialmedia-icons-block-robin{
+    left: 6vw;
+  }
+}
+
+@media (max-width: 800px){
+
+
+
+  .about-us-card-header-andrejs{
+    font-size: 1rem;
+  }
+
+  .about-us-card-header-robin{
+    font-size: 1rem;
+  } 
+
+  .about-us-card-text-andrejs{
+    font-size: 0.7rem;
+  }
+
+  .about-us-card-text-robin{
+    font-size: 0.7rem;
+  }
+
+  .aboutus-socmediaicon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .socialmedia-icons-block-andrejs{
+    left: 7vw;
+  }
+
+  .socialmedia-icons-block-robin{
+    left: 7vw;
+  }
+
+}
+
+@media (max-width: 768px){
+  .image-robin{
+    width: 60%;
+    top: -3vh;
+    left: 1vw;
+  }
+
+  .image-andrejs{
+    width: 60%;
+    top: 30vh;
+    left: 1vw;
+  }
+  
+  .aboutus-card-texts-links-robin{
+    top: 43vh;
+    left: 42vw;
+    width: 40vw;
+  }
+
+  .aboutus-card-texts-links-andrejs{
+    top: 76vh;
+    left: 43vw;
+    width: 40vw;
+  }
+
+
+  .about-us-card-header-andrejs{
+    font-size: 1.3rem;
+  }
+
+  .about-us-card-header-robin{
+    font-size: 1.3rem;
+  } 
+
+  .about-us-card-text-andrejs{
+    font-size: 0.9rem;
+  }
+
+  .about-us-card-text-robin{
+    font-size: 0.9rem;
+  }
+
+
+
+
+
+  .aboutus-socmediaicon {
+    width: 35px;
+    height: 35px;
+  }
+
+  
+}
+
+
+@media (max-width: 480px){
+
+  .image-robin{
+    width: 80%;
+  
+  }
+
+  .image-andrejs{
+    width: 80%;
+
+  }
+}
