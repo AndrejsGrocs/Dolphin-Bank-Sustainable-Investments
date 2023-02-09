@@ -1,71 +1,163 @@
-.cardRobin {
-  position: relative;
-  text-align: center;
-}
-.cardAndrejs {
-  position: relative;
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.image-robin {
-  position: relative;
-  text-align: center;
-  width: 55%;
-}
+
+
+.cardAndrejs {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  }
+  
+  
+  .cardRobin {
+    position: fixed;
+  }
+
+
+/* Card Andrejs */
+
+
+
 
 .image-andrejs {
   position: relative;
+  top: 8vh;
+  left:20vw;
+  font-size: 1.5rem;
   text-align: center;
-  width: 55%;
-  // position: relative;
+  width: 30vw;
+
 }
+
+.aboutus-card-texts-links-andrejs {
+  color: #2a3d4f;
+  position: relative;
+  text-align: right;
+  top: -10vh;
+  left: 25vw;
+  width: 30vw;
+  height: 20vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+
+}
+
 
 .about-us-card-header-andrejs {
   position: relative;
-  top: -2vh;
+  text-align: right;
+
+  
+  font-size: 1.8em;
   text-align: center;
-  margin-left: 6vw;
   font-weight: 800;
 }
 
-.about-us-card-header-robin {
+
+
+
+.about-us-card-text-andrejs {
   position: relative;
-  top: -2vh;
-  text-align: center;
-  margin-left: 6vw;
-  font-weight: 800;
+
+
+  color: #2a3d4f;
 }
 
-.aboutus-card-texts-links {
-  color: #2a3d4f;
-  position: absolute;
+
+.socialmedia-icons-block-andrejs {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Card Robin */
+
+
+
+.image-robin {
+  position: relative;
+  top: 8vh;
+  left: 60vw;
   text-align: center;
-  top: 10vh;
-  left: 40%;
+  width: 30vw;
+}
+
+
+.aboutus-card-texts-links-robin {
+  color: #2a3d4f;
+  position: fixed;
+  text-align: center;
+  top: 65%;
+  left: 25%;
   height: 100px;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-size: 1rem;
 }
 
-.socialmedia-icons-block {
+
+.about-us-card-header-robin {
+  position: fixed;
+  top: 50vh;
+  right: 32vw;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 800;
+ 
+}
+
+
+
+
+.about-us-card-text-robin {
+  position: fixed;
+  top: 57vh;
+  right: 32vw;
+  font-size: 1.5em;
+  text-align: center;
+  color: #2a3d4f;
+  font-weight: 800;
+}
+
+
+.socialmedia-icons-block-robin {
   position: absolute;
   display: flex;
   flex-direction: row;
   gap: 3vw;
-  width: 100%;
-  top: 5vh;
-  margin-left: 3vw;
+  width: 30%;
+  top: -3vh;
+  left: 35vw;
+
 }
+
+
+
+
+
 
 .aboutus-socmediaicon {
   width: 40px;
   height: 40px;
 }
 
-.about-us-card-text {
-  position: relative;
-  top: 8vh;
-  left: 3vw;
-  color: #2a3d4f;
-}
+
