@@ -13,6 +13,7 @@ function AccountPage() {
         <p className="account-page-text">
           We use modern technologies that make your everyday life easier and
           contribute to the future of us all.{" "}
+          <br/>
           <button
             className="acbutton1 account-button"
             type="button"
