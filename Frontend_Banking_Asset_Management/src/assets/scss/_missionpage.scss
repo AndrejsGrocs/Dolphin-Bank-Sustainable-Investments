@@ -106,7 +106,7 @@ body {
     height: 100%;
 
     object-fit: cover;
-    object-position: 50% 60%;
+    object-position: 50% 30%;
     border-radius: 5px;
   
   
@@ -121,7 +121,7 @@ body {
     height: 80%;
  
 
-    object-position: 50% 50%;
+
 
   
   
@@ -141,7 +141,6 @@ body {
 
 
 
-  object-position: 50% 30%;
 
 
 
@@ -193,7 +192,7 @@ body {
     top: 25vh;
 
   
-    object-position: 50% 50%;
+    object-position: 50% 20%;
   
   
   
@@ -233,6 +232,9 @@ body {
 
 
 @media (max-width: 480px){
+
+
+  
   .bank-priorities-texts{
     top: 30vh;
 

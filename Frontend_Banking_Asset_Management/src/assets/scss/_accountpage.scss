@@ -9,7 +9,7 @@
   flex-direction: column;
   width: 100%;
   height: 95%;
-  margin-top: 50px;
+
   font-size: 1rem;
   text-align: center;
 
@@ -23,7 +23,7 @@
 
 .acc-header {
   position: relative;
-  top: 3vh;
+  top: 7vh;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
@@ -37,6 +37,7 @@
 .account-page-text {
   position: relative;
   top: 20vh;
+  right: 10vw;
   color: #ffffff;
   font-family: "Comfortaa", cursive;
   width: 25%;
@@ -44,19 +45,21 @@
   font-size: 1.7rem;
 
   margin-left: auto;
-  margin-right: 150px;
+
   
 }
 
 .acbutton1 {
+  position: relative;
+  top: 2vh;
   background-color: #fbc78d;
   color: #2a3d4f;
   height: 50px;
   width: 200px;
   border-radius: 30px;
-  margin-top: 20px;
-  margin-left: 0 auto;
-  //margin-right: 150px;
+
+  margin: 0 auto;
+
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 17px;
@@ -74,20 +77,124 @@
 }
 
 
-.account-button{
-  position: relative;
-  top: 1vh;
-}
+
 
 
 .image-account-page{
   position: absolute;
   margin: 0 auto;
+
   width: 100%;
-  height:90%;
+  height:100%;
 
   object-fit: cover;
-    margin-top: 3vh;
-  object-position: 50% 50%;
+   
+  object-position: 50% 20%;
+
+}
+
+
+
+/*<------------------------------------>*/
+
+
+
+/* Responsiveness section */
+
+
+@media (max-width: 4500px){
+  
+}
+
+
+@media (max-width: 1200px){
+
+  .acc-header{
+    font-size: 2.5rem;
+  }
+  
+}
+
+
+@media (max-width: 960px){
+  .acc-header{
+    font-size: 2rem;
+  }
+
+  .account-page-text{
+    top: 30vh;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px){
+  .image-account-page{
+    object-fit: cover;
+
+  
+  }
+
+  .acc-header{
+    font-size: 1.7rem;
+    top: 20vh;
+  }
+
+  .account-page-text{
+    top: 35vh;
+    right: 25vw;
+    width: 50%;
+    font-size: 1.3rem;
+  }
+}
+
+
+@media (max-width: 600px){
+  .acc-header{
+
+    font-size: 1.5rem;
+  
+  }
+
+  .account-page-text{
+
+    font-size: 1.1rem;
+  }
+
+}
+
+@media (max-width: 480px){
+  .acbutton1{
+    width: 150px;
+  }
+
+  .acc-header{
+
+    font-size: 1.3rem;
+  
+  }
+
+  .account-page-text{
+
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 320px){
+  .acbutton1{
+    width: 120px;
+  }
+
+  .acc-header{
+    top: 25vh;
+
+    font-size: 1.1rem;
+  
+  }
+
+  .account-page-text{
+
+    font-size: 0.8rem;
+  }
 
 }
