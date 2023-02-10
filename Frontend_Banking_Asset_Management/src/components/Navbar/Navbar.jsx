@@ -8,7 +8,7 @@ import logoimg from '../../assets/images/db-bank-logo-navbar150-1.png'
 
 export default function Navbar() {
     const {loggedIn} = useContext(AppContext)
-    const [btnState, setBtnState] = useState(false)
+    const [btnState, setBtnState] = useState(true)
 
 
     let toggleClassCheck = btnState ? ' nav-list' : 'nav-list-hide' 

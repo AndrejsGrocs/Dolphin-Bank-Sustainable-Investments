@@ -9,12 +9,14 @@ export default function BankPrioritiesPage() {
       <div className="banner-3">
       <img className="image-bank-priorities" src={image1} />
       
-       <h1 className="bank-priorities-banner-header">We want change!</h1>
+       {/* <h1 className="bank-priorities-banner-header">We want change!</h1> */}
       </div>
 
 
 
       <div className="bank-priorities-texts">
+      
+      <h1 className="bank-priorities-bold-text head">We want change!</h1>
         <p className="bank-priorities-text">
           The global ecosystem’s collapse has been predicted for decades now,
           yet the lack of comprehensive options for the individual to contribute
@@ -52,8 +54,7 @@ export default function BankPrioritiesPage() {
           We take our customers' money and transform the economy with it. In the
           end, everyone benefits.
         </h1>
-      </div>
-      <button
+        <button
         className="acbutton1 bp-button"
         type="button"
         onClick={(e) => {
@@ -63,12 +64,14 @@ export default function BankPrioritiesPage() {
       >
         Sign Up
       </button>
+      </div>
+
       {/* <img className='bannerImg'
               src={image1}
               alt="image"
               
             /> */}
-      <h1></h1>
+    
     </div>
   );
 }
