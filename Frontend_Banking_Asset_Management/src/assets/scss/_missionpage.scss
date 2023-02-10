@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 120vh;
+  height: 130vh;
   margin: 5rem auto;
   padding: 20px;
   padding-top: 1rem;
@@ -51,10 +51,10 @@ body {
 
 
 .image-bank-priorities{
-  position: absolute;
-  margin: 0 auto;
-  width: 97%;
-  height: 40%;
+  position: relative;
+  
+  width: 95%;
+  height: 80%;
   object-fit: cover;
   object-position: 0% 70%;
   border-radius: 5px;
@@ -63,9 +63,11 @@ body {
 }
 
 .bank-priorities-texts{
+  position: relative;
+  top: 25vh;
   margin: 0 auto;
   width: 60%;
-  margin-top: 25vh;
+
   text-align: center;
   color: #2a3d4f;
 }
@@ -75,9 +77,214 @@ body {
   color: #2a3d4f;
 }
 
+.head{
+  font-size: 4rem;
+}
+
 .bp-button{
   margin: 0 auto;
   margin-top: 5vh;
-  height: 10vh;
+  margin-bottom: 100px;
+  height: 50px;
+
+}
+
+
+
+/*<------------------------------------>*/
+
+
+
+/* Responsiveness section */
+
+
+@media (max-width: 4500px){
+  .image-bank-priorities{
+
+    margin: 0 auto;
+    width: 97%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: 50% 60%;
+    border-radius: 5px;
+  
+  
+  }
+
+}
+
+@media (max-width: 2000px){
+    .image-bank-priorities{
+
+    width: 97%;
+    height: 80%;
+ 
+
+    object-position: 50% 50%;
+
+  
+  
+  }
+  .bank-priorities-texts{
+    top: 8vh;
+
+
+
+}
+
+
+}
+
+@media (max-width: 1200px){
+  .image-bank-priorities{
+
+
+
+  object-position: 50% 30%;
+
+
+
+}
+
+.bank-priorities-banner-header {
+ 
+  top: 20vh;
+ 
+  font-size: 4.5rem;
+
+}
+
+  .bank-priorities-texts{
+      top: 13vh;
+ 
+ 
+ 
+  }
+
+
+
+}
+
+
+@media (max-width: 1024px){
+
+  .bank-priorities-texts{
+    top: 8vh;
+    width: 80%;
+
+
+
+}
+
+.image-bank-priorities{
+  left: 1vw;
+}
+
+.head{
+  font-size: 3rem;
+}
+
+}
+
+
+@media (max-width: 768px){
+  .image-bank-priorities{
+    top: 25vh;
+
+  
+    object-position: 50% 50%;
+  
+  
+  
+  }
+
+  .bank-priorities-banner-header {
+ 
+    top: 30vh;
+   
+    font-size: 3.5rem;
+  
+  }
+
+
+  .bank-priorities-texts{
+    top: 30vh;
+
+
+
+
+}
+
+.bank-priorities-bold-text{
+ font-size: 1.5rem;
+}
+
+.head{
+  font-size: 3rem;
+}
+
+
+.bank-priorities-text{
+  font-size: 0.8rem;
+}
+
+}
+
+
+@media (max-width: 480px){
+  .bank-priorities-texts{
+    top: 30vh;
+
+
+
+
+}
+
+.bank-priorities-banner-header {
+
+ 
+  font-size: 3.1rem;
+
+}
+
+
+
+
+.bank-priorities-bold-text{
+  font-size: 1.1rem;
+ }
+
+ .head{
+  font-size: 2rem;
+}
+
+
+ .bank-priorities-text{
+  font-size: 0.7rem;
+}
+
+
+
+}
+
+
+@media (max-width: 340px){
+
+  .bank-priorities-texts{
+
+
+
+
+
+}
+
+
+.bp-button{
+
+  width: 150px;
+  height: 50px;
+
+}
 
 }
