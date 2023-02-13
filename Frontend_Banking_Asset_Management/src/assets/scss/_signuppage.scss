@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 95vh;
+  height: 95%;
   margin-top: 50px;
   font-size: 1rem;
   text-align: center;
@@ -17,17 +17,14 @@
   font-family: "Poppins", sans-serif;
 }
 
-
-
-
-.signup-form{
+.signup-form {
   position: relative;
   top: 21vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
- 
+  width: 100%;
+  margin: 0 auto;
 }
 .form-control {
   text-align: center;
@@ -44,11 +41,10 @@
 }
 
 .button-signup {
-
   background-color: #fbc78d;
   color: #2a3d4f;
-  width: 110px;
-  height: 50px;
+  width: 200px;
+  height: 5vh;
   border-radius: 30px;
   margin: 0 auto;
   margin-top: 20px;
@@ -74,25 +70,87 @@
 }
 
 .forgot-password {
+  position: relative;
+  top: 1vh;
   color: #fbc78d;
-  margin-top: 20px;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
-
-.image-signup-page{
+.image-signup-page {
   position: absolute;
+  top: 0;
+  margin: 0 auto;
 
   width: 100%;
-  height: 95%;
+  height: 100%;
 
   object-fit: cover;
-  object-position: 0% 100%;
+  object-position: 50% 50%;
+}
+
+.signup-buttons-container {
+  position: relative;
+
 
 }
 
-         
-.signup-buttons-container{
-  margin-top: 5vh;
+
+
+
+
+
+
+/*<------------------------------------>*/
+
+/* Responsiveness section */
+
+@media (max-width: 4500px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 960px) {
+}
+
+@media (max-width: 768px) {
+
+  .button-signup{
+    width: 170px;
+
+  }
+
+  .forgot-password{
+    font-size: 1.2rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 480px) {
+
+  .button-signup{
+    width: 150px;
+
+  }
+
+  .forgot-password{
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .button-signup{
+    width: 100px;
+
+  }
+
+
+  .forgot-password{
+    font-size: 0.8rem;
+  }
 }

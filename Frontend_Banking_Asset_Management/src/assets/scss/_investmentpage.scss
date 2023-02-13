@@ -82,7 +82,7 @@
   position: relative;
   margin: 0 auto; 
   height: 10vh;
-  top: 3%;
+  top: 7vh;
 
   
  
@@ -105,6 +105,12 @@
 
 
 @media (max-width: 4500px){
+
+  .ip-button{
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+  }
   
 }
 
@@ -203,6 +209,12 @@
     width: 13%;
   }
 
+  .ip-button{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+  }
+
 
 
 
@@ -216,7 +228,28 @@
     width: 16%;
   }
 
+  .investment-page-banner-header{
+  
+    font-size: 0.8rem;
+    
+  }
 
+
+
+  .investment-page-text{
+    font-size: 0.9rem;
+
+  }
+
+  .investment-page-text-h1{
+    font-size: 1.3rem;
+  }
+
+  .ip-button{
+    width: 80px;
+    height: 40px;
+    font-size: 13px;
+  }
 
    
   
