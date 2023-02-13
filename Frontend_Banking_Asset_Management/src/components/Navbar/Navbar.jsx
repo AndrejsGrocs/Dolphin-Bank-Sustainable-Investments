@@ -24,9 +24,9 @@ export default function Navbar() {
            <a className='bank-logo' href="/" >{<img className='nav-logo-img' src={logoimg} alt='dolphin bank logo'></img>}</a>   
         </div>
         
-       <div hamburger-container >
+       {/* <div hamburger-container >
        <label className='hamburger' for="toggle" onClick={handleClick}>&#9776;</label>
-       </div>
+       </div> */}
 
         <ul className={`nav-list ${btnState ? 'nav-list':'nav-list-hide'}`}>
         {loggedIn?( 
