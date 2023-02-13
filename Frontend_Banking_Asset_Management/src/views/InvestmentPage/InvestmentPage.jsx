@@ -27,11 +27,7 @@ export default function InvestmentPage() {
 
 
         </h1>
-        </div>
-
-     
-      </div>
-      <button
+        <button
         className="acbutton1 ip-button"
         type="button"
         onClick={(e) => {
@@ -46,7 +42,12 @@ export default function InvestmentPage() {
             alt="image"
             
           /> */}
-      <h1></h1>
+     
     </div>
+        </div>
+
+     
+      </div>
+ 
   );
 }
