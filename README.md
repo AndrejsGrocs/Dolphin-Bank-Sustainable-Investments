@@ -52,6 +52,9 @@ In case if you want to send money to your account to test the functions of the a
 Please do not take all money from there, so other users are able to check the functionality of the app too.
 
 
+
+
+
 Or you can register a new user, and log in after it.
 
 You are able to transfer money to another user using the Account Number.
