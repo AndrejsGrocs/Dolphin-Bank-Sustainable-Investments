@@ -279,6 +279,9 @@
 }
 
 @media (max-width: 960px) {
+  .acc-user-data{
+    width: 60%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -349,10 +352,13 @@
 
 
   .account-balance{
-    font-size: 1.3rem;
+
+   
   
 
   }
+
+
 
   .t-history-text{
     font-size: 1rem;

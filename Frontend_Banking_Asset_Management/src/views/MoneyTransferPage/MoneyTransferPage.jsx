@@ -75,6 +75,7 @@ export default function MoneyTransfer() {
               </label>
 
               <button className="send-money-button">Send</button>
+              <br/>
             </form>
           </div>
         </>
