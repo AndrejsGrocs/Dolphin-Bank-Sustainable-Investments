@@ -18,17 +18,19 @@ export default function Navbar() {
     }
     
     return (
-        <nav className='nav'>
+        <>
+         <div className='hamburger-container' >
+       <label className='hamburger' for="toggle" onClick={handleClick}>&#9776;</label>
+       </div> 
+        <nav className={`nav ${btnState ? 'nav-list-hide':'nav'}`}>
         
         <div className='bank-logo-section'>
            <a className='bank-logo' href="/" >{<img className='nav-logo-img' src={logoimg} alt='dolphin bank logo'></img>}</a>   
         </div>
         
-       {/* <div hamburger-container >
-       <label className='hamburger' for="toggle" onClick={handleClick}>&#9776;</label>
-       </div> */}
+   
 
-        <ul className={`nav-list ${btnState ? 'nav-list':'nav-list-hide'}`}>
+        <ul className='nav-list'>
         {loggedIn?( 
             <>
             <li></li>
@@ -95,5 +97,7 @@ export default function Navbar() {
        
            
         </nav>
+           
+       </>
     )
 }
