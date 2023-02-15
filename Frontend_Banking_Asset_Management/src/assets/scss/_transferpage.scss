@@ -50,21 +50,22 @@
   display: flex;
   flex-direction: column;
 
-  float: left;
+  text-align: left;
   gap: 5vh;
   width: 50%;
   height: 50%;
 }
 
 .send-money-button {
-  position: absolute;
-  top: 45vh;
-  left: -5vw;
+  position: relative;
 
-  margin-bottom: 3vh;
   
 
-  width: 140px;
+
+
+  
+
+  width: 100px;
   height: 48px;
 
   font-family: "Poppins", sans-serif;
@@ -189,9 +190,29 @@ input.money-card-input {
 
 @media (max-width: 600px) {
 
+  .send-money-button{
+    width: 50px;
+  }
+
 }
 
 @media (max-width: 480px) {
+
+  .send-money-card{
+    width: 97%;
+  }
+
+  .money-card-user-accountnumber{
+    font-size: 0.6rem;
+  }
+
+  .money-card-text{
+    font-size: 0.8rem;
+  }
+
+  .money-card-user-text{
+    font-size: 0.8rem;
+  }
 
 
 

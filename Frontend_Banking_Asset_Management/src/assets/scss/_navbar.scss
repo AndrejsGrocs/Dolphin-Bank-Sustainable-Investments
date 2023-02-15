@@ -5,6 +5,7 @@
 }
 
 .nav {
+  display: flex;
   position: fixed;
   top: 0;
   width: 100%;
@@ -70,12 +71,12 @@ a.nav-link:hover {
   color: #2a3d4f;
   cursor: pointer;
   font-size: 0.8em;
-  padding: 1rem;
+
   border: 0;
   transition: all 0.5s;
   border-radius: 30px;
   position: relative;
-  width: 140px;
+  width: 120px;
   height: 48px;
 
   &:hover {
@@ -95,12 +96,12 @@ a.nav-link:hover {
   color: #2a3d4f;
   cursor: pointer;
   font-size: 0.8em;
-  padding: 1rem;
+
   border: 0;
 
   border-radius: 30px;
 
-  width: 140px;
+  width: 120px;
   height: 48px;
 
   &:hover {
@@ -139,6 +140,8 @@ a.nav-link:hover {
 }
 
 .nav-buttons-section {
+  position: relative;
+
   list-style: none;
   display: flex;
   width: 17%;
@@ -166,71 +169,55 @@ img.nav-logo-img {
 }
 
 .toggle:checked {
-  
   width: 20%;
   display: block;
 }
 
 .hamburger {
+  position: relative;
+
   width: 5%;
   font-size: 25px;
   display: none;
   position: relative;
   right: 10vw;
-  margin-top: 1vh;
+
   width: 30%;
 }
 
 .hamburger-container {
-  position: relative;
-  top: 10vh;
-  right: 30vw;
-  margin-top: 1vh;
-  width: 30%;
-}
+  position: fixed;
+  top: 0;
+  left: 30vw;
+  z-index: 3;
+  
 
+  
+}
 
 #toggle {
   display: none;
 }
 
-
-
-
-
 /* Responsiveness section */
-
-
-
-
 
 @media (max-width: 4500px) {
   .nav-buttons-section {
     position: relative;
-    right: 3vw;
+    right: 5vw;
     gap: 1vw;
   }
 
-  .nav-list li a{
+  .nav-list li a {
     font-size: 0.8rem;
   }
-  
 }
 
-
-@media (max-width: 2000px){
-
-  .nav-list li a{
+@media (max-width: 2000px) {
+  .nav-list li a {
     font-size: 0.7rem;
   }
-  
 }
-
-
-
-
-
-
 
 @media (max-width: 1400px) {
 }
@@ -241,23 +228,21 @@ img.nav-logo-img {
     font-size: 0.6em;
 
     width: 70px;
-    height: 48px;
+    height: 42px;
   }
 
   .button-nav-signup {
     font-size: 0.6em;
     width: 70px;
-    height: 48px;
+    height: 42px;
   }
 
   .button-nav-logout {
-
     font-size: 0.6em;
     width: 70px;
     height: 48px;
-
   }
-  .nav-list li a{
+  .nav-list li a {
     font-size: 0.6rem;
   }
 }
@@ -266,21 +251,38 @@ img.nav-logo-img {
 }
 
 @media (max-width: 768px) {
-  .hamburger {
-    
-    display: flex;
-    position: absolute;
-    margin: 0 auto;
-    width: 5%;
-    top: 1%;
-    left: 10%;
-    cursor: pointer;
 
+  .hamburger-container {
+    position: fixed;
+    top: 3vh;
+    left: 100vw;
+    z-index: 3;
+    
+    
+  
+    
+  }
+  .hamburger {
+    display: flex;
+    
+    width: 3vw;
+    font-size: 30px;
+    font-weight: bold;    
+  
+    text-shadow: rgba(0, 0, 0, 0.41) 0px 5px 15px;
+ 
+
+   
+   
+  
+    cursor: pointer;
+    color: #2a3d4f;
+  
   }
   .nav {
     height: 200px;
     opacity: 0.9;
-}
+  }
 
   .nav-list {
     list-style: none;
@@ -289,39 +291,53 @@ img.nav-logo-img {
     width: 50%;
     font-size: 0.8rem;
     margin: 0 auto;
-    margin-top: 5vh;
+   
     justify-content: space-around;
     text-align: center;
     gap: 5px;
-
-
   }
 
   .nav-buttons-section {
- 
+    display: flex;
+    flex-direction: column;
+    top: 2.5vh;
     right: 10vw;
     gap: 1vw;
+  }
+
+  .button-nav-signup {
+    height: 30px;
+  }
+
+  .button-nav-login {
+    height: 30px;
   }
 
   .nav-list-hide {
     display: none;
   }
 
+
+
   a.nav-link:hover {
     color: #535353;
 
-  
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 6px 15px #69697061;
   }
-
-
 }
 @media (max-width: 480px) {
 
+  .button-nav-signup {
+    width: 56px;
+  }
+
+  .button-nav-login {
+    width: 56px;
+    
+  }
 }
 @media (max-width: 320px) {
-
 }
 @media (max-width: 200px) {
 }

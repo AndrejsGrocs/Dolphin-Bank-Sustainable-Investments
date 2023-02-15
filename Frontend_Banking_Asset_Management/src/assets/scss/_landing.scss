@@ -52,6 +52,7 @@ body {
   gap: -10vw;
 
   z-index: 1;
+
 }
 
 .image-landing-page{
@@ -125,6 +126,7 @@ img.bannerImg {
   font-size: 4.08rem;
   margin-left: 0 auto;
   margin-right: auto;
+  
 }
 
 .bannerText1 {
@@ -135,6 +137,7 @@ img.bannerImg {
   font-size: 1.7rem;
   width: 80%;
   text-align: left;
+ 
 }
 
 .bannerButton1 {
@@ -508,7 +511,7 @@ img.bannerImg {
 @media (max-width: 768px) {
   
   .image-landing-page{
-    margin-top: -1.5vh;
+    margin-top: -2.5vh;
     object-position: 50% 50%;
   }
 
