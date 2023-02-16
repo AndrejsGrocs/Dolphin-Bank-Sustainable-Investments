@@ -21,8 +21,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
-.image-investment-page{
+.image-investment-page {
   position: absolute;
   margin: 0 auto;
   width: 97%;
@@ -32,7 +31,7 @@
   border-radius: 5px;
 }
 
-.investment-page-banner-header{
+.investment-page-banner-header {
   position: relative;
   top: 7vh;
   left: 5vw;
@@ -44,16 +43,12 @@
   color: #ffffff;
 }
 
-
-.investment-page-texts{
+.investment-page-texts {
   position: relative;
   top: 30vh;
- 
-
 }
 
-
-.investment-page-text{
+.investment-page-text {
   width: 50%;
   font-size: 1.7rem;
   font-weight: 700;
@@ -61,10 +56,7 @@
   color: #2a3d4f;
 }
 
-
-
-
-.investment-page-text-h1{
+.investment-page-text-h1 {
   width: 50%;
 
   font-size: 3rem;
@@ -74,187 +66,124 @@
   color: #2a3d4f;
 }
 
-
-
-
-.ip-button{
-  
+.ip-button {
   position: relative;
-  margin: 0 auto; 
+  margin: 0 auto;
   height: 10vh;
   top: 7vh;
-
-  
- 
-
 }
 
-.image-investment-logo{
+.image-investment-logo {
   margin-top: 5vh;
   width: 6%;
 }
 
-
-
-
 /*<------------------------------------>*/
-
-
 
 /* Responsiveness section */
 
-
-@media (max-width: 4500px){
-
-  .ip-button{
+@media (max-width: 4500px) {
+  .ip-button {
     width: 200px;
     height: 50px;
     font-size: 15px;
   }
-  
 }
 
-
-@media (max-width: 1200px){
-
-  .image-investment-logo{
+@media (max-width: 1200px) {
+  .image-investment-logo {
     width: 8%;
   }
 
-  .image-investment-page{
+  .image-investment-page {
     left: 1vw;
   }
-
-
 }
 
-
-@media (max-width: 960px){
-
-
-
-
-
+@media (max-width: 960px) {
 }
 
-@media (max-width: 768px){
-
-  .image-investment-page{
-    top: 27vh;
+@media (max-width: 768px) {
+  .image-investment-page {
+    top: 215px;
     object-position: 50% 30%;
-
   }
 
-  .investment-page-text{
+  .investment-page-text {
     font-size: 1.4rem;
-
   }
 
-  .investment-page-text-h1{
+  .investment-page-text-h1 {
     font-size: 2.1rem;
   }
 
-  .investment-page-banner-header{
-    top: 17vh;
+  .investment-page-banner-header {
+    top: 19vh;
     font-size: 1.2rem;
   }
 
-  .investment-page-texts{
+  .investment-page-texts {
     top: 40vh;
-
-
   }
 
-  .image-investment-logo{
+  .image-investment-logo {
     width: 10%;
   }
-
-
-
 }
 
-
-@media (max-width: 600px){
-
-  .investment-page-banner-header{
-  
+@media (max-width: 600px) {
+  .investment-page-banner-header {
     font-size: 1.2rem;
     width: 60%;
   }
 
-  .investment-page-text-h1{
+  .investment-page-text-h1 {
     font-size: 1.8rem;
     width: 80%;
   }
-
-
-
 }
 
-@media (max-width: 480px){
-
-
-  .investment-page-banner-header{
+@media (max-width: 480px) {
+  .investment-page-banner-header {
     top: 25vh;
     font-size: 1rem;
-    
   }
 
-  .investment-page-text{
+  .investment-page-text {
     font-size: 1.1rem;
-
   }
 
-  .image-investment-logo{
+  .image-investment-logo {
     width: 13%;
   }
 
-  .ip-button{
+  .ip-button {
     width: 100px;
     height: 50px;
     font-size: 15px;
   }
-
-
-
-
-
-
 }
 
-@media (max-width: 320px){
-
-  .image-investment-logo{
+@media (max-width: 320px) {
+  .image-investment-logo {
     width: 16%;
   }
 
-  .investment-page-banner-header{
-  
+  .investment-page-banner-header {
     font-size: 0.8rem;
-    
   }
 
-
-
-  .investment-page-text{
+  .investment-page-text {
     font-size: 0.9rem;
-
   }
 
-  .investment-page-text-h1{
+  .investment-page-text-h1 {
     font-size: 1.3rem;
   }
 
-  .ip-button{
+  .ip-button {
     width: 80px;
     height: 40px;
     font-size: 13px;
   }
-
-   
-  
-  }
-
-
-
-
+}

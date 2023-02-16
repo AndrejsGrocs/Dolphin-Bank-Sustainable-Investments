@@ -25,7 +25,6 @@
   justify-content: center;
   width: 100%;
   margin: 0 auto;
-  
 }
 
 label {
@@ -35,7 +34,7 @@ label {
 
 .input-login {
   position: relative;
-  
+
   margin-top: 20px;
   background-color: #fbc78dde;
   font-family: "Poppins", sans-serif;
@@ -87,8 +86,7 @@ label.input-login:focus {
   }
 }
 
-
-.image-login-page{
+.image-login-page {
   position: absolute;
   top: 0;
   margin: 0 auto;
@@ -98,99 +96,46 @@ label.input-login:focus {
 
   object-fit: cover;
   object-position: 80% 60%;
-
 }
-
 
 /*<------------------------------------>*/
 
-
-
 /* Responsiveness section */
 
-
-@media (max-width: 4500px){
-
-
-  
+@media (max-width: 4500px) {
 }
 
-
-@media (max-width: 1200px){
-  .input-login{
+@media (max-width: 1200px) {
+  .input-login {
     width: 50vw;
     right: 10vw;
-    
-  
-  
- 
   }
-
-
-
-
 }
 
-
-@media (max-width: 960px){
-
-
-
+@media (max-width: 960px) {
 }
 
-@media (max-width: 768px){
-
-
-
-  .login-button{
+@media (max-width: 768px) {
+  .login-button {
     width: 170px;
   }
-
-
-
-
-
 }
 
-
-@media (max-width: 600px){
-  .input-login{
+@media (max-width: 600px) {
+  .input-login {
     width: 60vw;
     right: 15vw;
-    
-  
-  
- 
   }
-
-
-
 }
 
-@media (max-width: 480px){
-
-  .login-button{
+@media (max-width: 480px) {
+  .login-button {
     width: 150px;
   }
-
-
-
-
-
-
-
-
-
 }
 
-@media (max-width: 320px){
-
-  .login-button{
+@media (max-width: 320px) {
+  .login-button {
     width: 100px;
   }
-
-
-
-   
-  
-  }
+}
