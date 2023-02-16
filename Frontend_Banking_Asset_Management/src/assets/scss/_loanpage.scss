@@ -14,15 +14,12 @@
   padding-top: 1rem;
   font-size: 1rem;
   text-align: center;
-
   color: #2a3d4f;
-  /*  background-color: #b5e5cf; */
   background-color: rgb(255, 255, 255);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
-.loan-container{
+.loan-container {
   position: relative;
   margin-right: 100px;
   width: 100%;
@@ -30,161 +27,108 @@
   flex-direction: row;
 }
 
-.image-loan-page{
+.image-loan-page {
   width: 40%;
   border-radius: 5px;
   object-fit: cover;
 }
 
-.loan-page-text{
+.loan-page-text {
   display: flex;
   align-items: center;
- 
+
   width: 70%;
   font-size: 2.1rem;
   font-weight: 800;
 }
 
-.lp-button{
-
+.lp-button {
   position: relative;
   top: 80%;
-  right:30%;
+  right: 30%;
 }
 
-
-.loan-text1{
+.loan-text1 {
   margin-top: 3vh;
   text-align: right;
 }
 
-
-.loan-text2{
+.loan-text2 {
   position: relative;
   top: 1%;
   text-align: left;
 }
 
-
 /*<------------------------------------>*/
-
-
 
 /* Responsiveness section */
 
-
-@media (max-width: 4500px){
-  
+@media (max-width: 4500px) {
 }
 
-
-@media (max-width: 1200px){
-
-  
+@media (max-width: 1200px) {
 }
 
-
-@media (max-width: 960px){
-
-  .loan-text2{
-  
+@media (max-width: 960px) {
+  .loan-text2 {
   }
 
-  .loan-page-text{
+  .loan-page-text {
     font-size: 1.5rem;
   }
-
-
-
 }
 
-@media (max-width: 768px){
-
-  .loan-page{
-    
+@media (max-width: 768px) {
+  .loan-page {
   }
-  .loan-container{
+  .loan-container {
     position: relative;
-    top: 25vh;
-    
+    top: 115px;
   }
 
-  .loan-page-text{
+  .loan-page-text {
     font-size: 1.3rem;
-   
-
   }
 
-  .loan-text1{
+  .loan-text1 {
     width: 50%;
     margin-left: auto;
   }
 
-  .lp-button{
-
+  .lp-button {
     top: 90%;
-  
   }
-
-
 }
 
-
-@media (max-width: 600px){
-
-  .loan-page{
+@media (max-width: 600px) {
+  .loan-page {
     height: 60vh;
   }
 
-  
-  .loan-page-text{
+  .loan-page-text {
     font-size: 1rem;
-
   }
-
 }
 
-@media (max-width: 480px){
-
-
-
-
-
-  .loan-page-text{
+@media (max-width: 480px) {
+  .loan-page-text {
     font-size: 0.7rem;
-
   }
 
-  .lp-button{
-
+  .lp-button {
     top: 100%;
     width: 150px;
     height: 30px;
     font-size: 0.8rem;
-  
   }
-
-
-
-
 }
 
-@media (max-width: 320px){
-
-  .lp-button{
-
-    
+@media (max-width: 320px) {
+  .lp-button {
     top: 120%;
     left: 1vw;
     width: 150px;
     height: 30px;
     font-size: 0.8rem;
-   
-   
-  
   }
-
-
-
-
 }
