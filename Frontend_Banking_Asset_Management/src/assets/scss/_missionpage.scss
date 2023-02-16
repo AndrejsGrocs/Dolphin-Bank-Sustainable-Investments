@@ -105,9 +105,6 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .image-bank-priorities {
-  }
-
   .bank-priorities-banner-header {
     top: 20vh;
 
@@ -165,8 +162,6 @@ body {
 }
 
 @media (max-width: 480px) {
-
-
   .bank-priorities-banner-header {
     font-size: 3.1rem;
   }
@@ -185,11 +180,30 @@ body {
 }
 
 @media (max-width: 340px) {
-  .bank-priorities-texts {
-  }
-
   .bp-button {
     width: 150px;
     height: 50px;
   }
+}
+
+/* <------------------------------> */
+
+/* Height Responsiveness */
+
+@media (max-height: 2000px) {
+}
+
+@media (max-height: 800px) {
+}
+
+@media (max-height: 600px) {
+}
+
+@media (max-height: 500px) {
+}
+
+@media (max-height: 450px) {
+}
+
+@media (max-height: 320px) {
 }

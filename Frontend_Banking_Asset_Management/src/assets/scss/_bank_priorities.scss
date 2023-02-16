@@ -53,7 +53,6 @@ div.bppflex {
   height: 50px;
   width: 250px;
   border-radius: 30px;
- 
 
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -71,74 +70,28 @@ div.bppflex {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 /*<------------------------------------>*/
 
 /* Responsiveness section */
 
-
-
-
-
-
-
-
-
 @media (max-width: 4500px) {
-  div.bppflex {
-  }
 }
 
 @media (max-width: 2000px) {
   div.bppflex {
     left: 20vw;
   }
-  .bpph1 {
-  }
-
-  .bppp1 {
-  }
 }
 
-@media screen and (max-width: 1400px) {
-  div.bppflex {
-  }
-
-  .bpph1 {
-  }
-
-  .bppp1 {
-  }
+@media (max-width: 1400px) {
 }
 
 @media (max-width: 1200px) {
-
-  div.bppflex {
-  }
-  .bpph1 {
-  }
-
-  .bppp1 {
-  }
 }
 
 @media (max-width: 1024px) {
-  div.bppflex {
-  }
   .bpph1 {
     font-size: 3.5rem;
-  }
-
-  .bppp1 {
   }
 }
 
@@ -150,17 +103,17 @@ div.bppflex {
 }
 
 @media (max-width: 768px) {
-
   .sectionButton1 {
-    width: 150px;
+    width: 120px;
+    height: 40px;
     top: 3vh;
+    font-size: 13px;
   }
 
-  .bank-priorities{
+  .bank-priorities {
     height: 50vh;
   }
-  div.bppflex {
-  }
+
   .bpph1 {
     font-size: 2.7rem;
   }
@@ -168,37 +121,86 @@ div.bppflex {
   .bppp1 {
     font-size: 1rem;
   }
-
-  .section-image1{
-   
-  }
 }
 
 @media (max-width: 480px) {
+
   .sectionButton1 {
-    width: 150px;
+    width: 100px;
+  
   }
 
-  div.bppflex {
 
-  }
   .bpph1 {
     font-size: 1.8rem;
   }
 
-  .bppp1 {
-   
-    font-size: 1rem;
-  }
+
 }
 
 @media (max-width: 320px) {
   .sectionButton1 {
-    width: 110px;
+  
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 200px) {
+}
+
+/* <------------------------------> */
+
+/* Height Responsiveness */
+
+@media (max-height: 2000px) {
+}
+
+@media (max-height: 800px) {
+}
+
+@media (max-height: 600px) {
+
+  .bank-priorities{
+    height: 60vh;
+  }
+
+  .sectionButton1 {
+    width: 150px;
+    height: 30px;
+    font-size: 13px;
+  
+  }
+
+  .bpph1 {
+    font-size: 1.5rem;
+  }
+
+  .bppp1 {
+    font-size: 0.9rem;
   }
 
 }
 
-@media (max-width: 200px) {
+@media (max-height: 500px) {
+}
+
+@media (max-height: 400px) {
+
+  .sectionButton1 {
+    width: 120px;
+    height: 25px;
+    
+  
+  }
+
+  .bpph1 {
+    font-size: 1.2rem;
+  }
+
+  .bppp1 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-height: 320px) {
 }

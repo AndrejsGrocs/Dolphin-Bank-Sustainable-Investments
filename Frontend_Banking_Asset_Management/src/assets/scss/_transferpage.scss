@@ -59,12 +59,6 @@
 .send-money-button {
   position: relative;
 
-  
-
-
-
-  
-
   width: 100px;
   height: 48px;
 
@@ -78,9 +72,6 @@
   border: 0;
   transition: all 0.5s;
   border-radius: 30px;
-
-
- 
 
   text-decoration: none;
 
@@ -127,7 +118,7 @@ input.money-card-input {
   top: 5vh;
   text-align: left;
   font-size: 1.2rem;
- 
+
   color: #2a3d4f;
 }
 
@@ -153,8 +144,6 @@ input.money-card-input {
   color: #2a3d4f;
 }
 
-
-
 /*<------------------------------------>*/
 
 /* Responsiveness section */
@@ -163,68 +152,73 @@ input.money-card-input {
 }
 
 @media (max-width: 1200px) {
-  .money-card-user-accountnumber{
+  .money-card-user-accountnumber {
     font-size: 0.9rem;
   }
 
-  .money-card-user-text{
+  .money-card-user-text {
     font-size: 1rem;
   }
 }
 
 @media (max-width: 960px) {
-
 }
 
 @media (max-width: 768px) {
-  .send-money-card{
+  .send-money-card {
     width: 80%;
   }
 
-  .money-card-text{
+  .money-card-text {
     font-size: 0.9rem;
   }
-
-
 }
 
 @media (max-width: 600px) {
-
-  .send-money-button{
+  .send-money-button {
     width: 50px;
   }
-
 }
 
 @media (max-width: 480px) {
-
-  .send-money-card{
+  .send-money-card {
     width: 97%;
   }
 
-  .money-card-user-accountnumber{
+  .money-card-user-accountnumber {
     font-size: 0.6rem;
   }
 
-  .money-card-text{
+  .money-card-text {
     font-size: 0.8rem;
   }
 
-  .money-card-user-text{
+  .money-card-user-text {
     font-size: 0.8rem;
   }
-
-
-
-
-
-
-
-
 }
 
 @media (max-width: 320px) {
+}
 
+/* <------------------------------> */
 
+/* Height Responsiveness */
 
+@media (max-height: 2000px) {
+}
+
+@media (max-height: 800px) {
+}
+
+@media (max-height: 600px) {
+}
+
+@media (max-height: 500px) {
+}
+
+@media (max-height: 450px) {
+}
+
+@media (max-height: 320px) {
 }

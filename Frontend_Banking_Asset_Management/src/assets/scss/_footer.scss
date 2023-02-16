@@ -29,31 +29,53 @@ footer {
   font-size: 1rem;
 }
 
-
-
 /*<------------------------------------>*/
-
-
 
 /* Responsiveness section */
 
+@media (max-width: 1024px) {
+  .footer-text {
+    font-size: 0.8rem;
+  }
+}
 
-@media (max-width: 1024px){
+@media (max-width: 768px) {
+  .footer-text {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer-text {
+    font-size: 0.6rem;
+  }
+}
+
+/* <------------------------------> */
+
+/* Height Responsiveness */
+
+@media (max-height: 2000px) {
+}
+
+@media (max-height: 800px) {
+}
+
+@media (max-height: 650px) {
+
+}
+
+@media (max-height: 500px) {
+  footer{
+    height: 5%;
+  }
   .footer-text{
     font-size: 0.8rem;
   }
 }
 
-@media (max-width: 768px){
-  .footer-text{
-    font-size: 0.7rem;
-  }
-
+@media (max-height: 450px) {
 }
 
-
-@media (max-width: 320px){
-  .footer-text{
-    font-size: 0.6rem;
-  }
+@media (max-height: 320px) {
 }
