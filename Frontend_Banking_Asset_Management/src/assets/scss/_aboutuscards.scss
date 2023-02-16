@@ -4,39 +4,28 @@
   box-sizing: border-box;
 }
 
-
-
 .cardAndrejs {
   position: fixed;
+}
 
-  }
-  
-  
-  .cardRobin {
-    position: fixed;
-  
-  }
+.cardRobin {
+  position: fixed;
+}
 
-
-  .aboutus-socmediaicon {
-    width: 40px;
-    height: 40px;
-  }
-
+.aboutus-socmediaicon {
+  width: 40px;
+  height: 40px;
+}
 
 /* Card Andrejs */
-
-
-
 
 .image-andrejs {
   position: relative;
   top: 3vh;
-  left:15vw;
+  left: 15vw;
   font-size: 1.5rem;
   text-align: center;
   width: 30vw;
-
 }
 
 .aboutus-card-texts-links-andrejs {
@@ -49,30 +38,22 @@
   height: 20vh;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-
 }
-
 
 .about-us-card-header-andrejs {
   position: relative;
   text-align: right;
 
-  
   font-size: 1.8em;
   text-align: center;
   font-weight: 800;
 }
 
-
-
-
 .about-us-card-text-andrejs {
   position: relative;
 
-
   color: #2a3d4f;
 }
-
 
 .socialmedia-icons-block-andrejs {
   position: relative;
@@ -81,24 +62,9 @@
   top: 1vh;
   left: 7vw;
   gap: 3vw;
-
-
-  
-
 }
 
-
-
-
-
-
-
-
-
-
 /* Card Robin */
-
-
 
 .image-robin {
   position: relative;
@@ -108,7 +74,6 @@
   text-align: center;
   width: 30vw;
 }
-
 
 .aboutus-card-texts-links-robin {
   color: #2a3d4f;
@@ -123,28 +88,20 @@
   font-size: 1rem;
 }
 
-
 .about-us-card-header-robin {
   position: relative;
   text-align: right;
 
-  
   font-size: 1.8em;
   text-align: center;
   font-weight: 800;
- 
 }
-
-
-
 
 .about-us-card-text-robin {
   position: relative;
 
-
   color: #2a3d4f;
 }
-
 
 .socialmedia-icons-block-robin {
   position: relative;
@@ -153,85 +110,57 @@
   top: 1vh;
   left: 7vw;
   gap: 3vw;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*<------------------------------------>*/
 
-
-
 /* Responsiveness section */
 
-
-@media (max-width: 4500px){
-
+@media (max-width: 4500px) {
 }
 
-@media (max-width: 2000px){
-  
+@media (max-width: 2000px) {
 }
 
-
-@media (max-width: 1700px){
-  
-  .aboutus-card-texts-links-andrejs{
-      left: 21vw;
+@media (max-width: 1700px) {
+  .aboutus-card-texts-links-andrejs {
+    left: 21vw;
   }
 
-  .aboutus-card-texts-links-robin{
-      left: 61vw;
-
+  .aboutus-card-texts-links-robin {
+    left: 61vw;
   }
 }
 
-
-@media (max-width: 1400px){
-  .about-us-card-header-andrejs{
+@media (max-width: 1400px) {
+  .about-us-card-header-andrejs {
     font-size: 1.5rem;
   }
 
-  .about-us-card-header-robin{
+  .about-us-card-header-robin {
     font-size: 1.5rem;
-  } 
+  }
 
   .aboutus-socmediaicon {
     width: 35px;
     height: 35px;
   }
-
-
 }
 
-
-@media (max-width: 1024px){
-
-  .about-us-card-header-andrejs{
+@media (max-width: 1024px) {
+  .about-us-card-header-andrejs {
     font-size: 1.2rem;
   }
 
-  .about-us-card-header-robin{
+  .about-us-card-header-robin {
     font-size: 1.2rem;
-  } 
+  }
 
-  .about-us-card-text-andrejs{
+  .about-us-card-text-andrejs {
     font-size: 0.8rem;
   }
 
-  .about-us-card-text-robin{
+  .about-us-card-text-robin {
     font-size: 0.8rem;
   }
 
@@ -240,32 +169,29 @@
     height: 30px;
   }
 
-  .socialmedia-icons-block-andrejs{
+  .socialmedia-icons-block-andrejs {
     left: 6vw;
   }
 
-  .socialmedia-icons-block-robin{
+  .socialmedia-icons-block-robin {
     left: 6vw;
   }
 }
 
-@media (max-width: 800px){
-
-
-
-  .about-us-card-header-andrejs{
+@media (max-width: 800px) {
+  .about-us-card-header-andrejs {
     font-size: 1rem;
   }
 
-  .about-us-card-header-robin{
+  .about-us-card-header-robin {
     font-size: 1rem;
-  } 
+  }
 
-  .about-us-card-text-andrejs{
+  .about-us-card-text-andrejs {
     font-size: 0.7rem;
   }
 
-  .about-us-card-text-robin{
+  .about-us-card-text-robin {
     font-size: 0.7rem;
   }
 
@@ -274,146 +200,128 @@
     height: 25px;
   }
 
-  .socialmedia-icons-block-andrejs{
+  .socialmedia-icons-block-andrejs {
     left: 7vw;
   }
 
-  .socialmedia-icons-block-robin{
+  .socialmedia-icons-block-robin {
     left: 7vw;
   }
-
 }
 
-@media (max-width: 768px){
-  .image-robin{
+@media (max-width: 768px) {
+  .image-robin {
     width: 60%;
     top: -3vh;
     left: 1vw;
   }
 
-  .image-andrejs{
+  .image-andrejs {
     width: 60%;
     top: 30vh;
     left: 1vw;
   }
-  
-  .aboutus-card-texts-links-robin{
+
+  .aboutus-card-texts-links-robin {
     top: 43vh;
     left: 43vw;
     width: 40vw;
   }
 
-  .aboutus-card-texts-links-andrejs{
+  .aboutus-card-texts-links-andrejs {
     top: 76vh;
     left: 43vw;
     width: 40vw;
   }
 
-
-  .about-us-card-header-andrejs{
+  .about-us-card-header-andrejs {
     font-size: 1.3rem;
   }
 
-  .about-us-card-header-robin{
+  .about-us-card-header-robin {
     font-size: 1.3rem;
-  } 
+  }
 
-  .about-us-card-text-andrejs{
+  .about-us-card-text-andrejs {
     font-size: 0.9rem;
   }
 
-  .about-us-card-text-robin{
+  .about-us-card-text-robin {
     font-size: 0.9rem;
   }
-
-
-
-
 
   .aboutus-socmediaicon {
     width: 35px;
     height: 35px;
   }
-
-  
 }
 
-
-@media (max-width: 480px){
-
-  .image-robin{
+@media (max-width: 480px) {
+  .image-robin {
     width: 85%;
-  
   }
 
-  .image-andrejs{
+  .image-andrejs {
     width: 85%;
-
   }
 
-  .aboutus-card-texts-links-robin{
+  .aboutus-card-texts-links-robin {
     width: 60vw;
     left: 37vw;
-  
   }
 
-  .aboutus-card-texts-links-andrejs{
+  .aboutus-card-texts-links-andrejs {
     width: 60vw;
     left: 37vw;
-   
   }
 
-  .about-us-card-header-andrejs{
+  .about-us-card-header-andrejs {
     font-size: 1.2rem;
   }
 
-  .about-us-card-header-robin{
+  .about-us-card-header-robin {
     font-size: 1.2rem;
-  } 
+  }
 
-  .about-us-card-text-andrejs{
+  .about-us-card-text-andrejs {
     font-size: 0.7rem;
   }
 
-  .about-us-card-text-robin{
+  .about-us-card-text-robin {
     font-size: 0.7rem;
   }
 
-  .socialmedia-icons-block-andrejs{
+  .socialmedia-icons-block-andrejs {
     left: 15vw;
   }
 
-  .socialmedia-icons-block-robin{
+  .socialmedia-icons-block-robin {
     left: 15vw;
   }
 }
 
-
-@media (max-width: 320px){
-
-  .aboutus-card-texts-links-robin{
-   top: 46vh;
-  
+@media (max-width: 320px) {
+  .aboutus-card-texts-links-robin {
+    top: 46vh;
   }
 
-  .aboutus-card-texts-links-andrejs{
+  .aboutus-card-texts-links-andrejs {
     top: 79vh;
-   
   }
 
-  .about-us-card-header-andrejs{
+  .about-us-card-header-andrejs {
     font-size: 1rem;
   }
 
-  .about-us-card-header-robin{
+  .about-us-card-header-robin {
     font-size: 1rem;
-  } 
+  }
 
-  .about-us-card-text-andrejs{
+  .about-us-card-text-andrejs {
     font-size: 0.6rem;
   }
 
-  .about-us-card-text-robin{
+  .about-us-card-text-robin {
     font-size: 0.6rem;
   }
 
@@ -421,5 +329,26 @@
     width: 25px;
     height: 25px;
   }
+}
 
+/* <------------------------------> */
+
+/* Height Responsiveness */
+
+@media (max-height: 2000px) {
+}
+
+@media (max-height: 800px) {
+}
+
+@media (max-height: 600px) {
+}
+
+@media (max-height: 500px) {
+}
+
+@media (max-height: 450px) {
+}
+
+@media (max-height: 320px) {
 }

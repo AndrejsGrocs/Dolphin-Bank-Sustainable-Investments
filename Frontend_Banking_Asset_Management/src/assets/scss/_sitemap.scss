@@ -51,77 +51,83 @@ div.icon-list {
   padding-top: 20px;
 }
 
-
-
-
 /*<------------------------------------>*/
-
-
 
 /* Responsiveness section */
 
-@media (max-width: 768px){
-
-  .sitemap{
+@media (max-width: 768px) {
+  .sitemap {
     height: 30vh;
-
   }
 
-  div.icon-list{
+  div.icon-list {
     justify-content: center;
   }
-
-
-
 }
 
-
-
-@media (max-width: 480px){
-
-  div.icon-list{
+@media (max-width: 480px) {
+  div.icon-list {
     justify-content: center;
-  
- 
-   
   }
 
-  .list-flex{
- 
-  }
-
-  .link-list{
-  
-   
+  .link-list {
     font-size: 0.6rem;
   }
 
-  .links-header{
+  .links-header {
     font-size: 0.9rem;
   }
 
-  .socmediaicon{
+  .socmediaicon {
     margin-right: 10px;
     width: 40px;
     height: 40px;
   }
-
 }
 
-@media (max-width: 320px){
-  .link-list{
-   
+@media (max-width: 320px) {
+  .link-list {
     font-size: 0.5rem;
   }
 
-  .links-header{
+  .links-header {
     font-size: 0.7rem;
   }
 
-  .socmediaicon{
-   
+  .socmediaicon {
     width: 30px;
     height: 30px;
   }
+}
 
+
+/* <------------------------------> */
+
+/* Height Responsiveness */
+
+@media (max-height: 2000px) {
+}
+
+@media (max-height: 800px) {
+}
+
+@media (max-height: 650px) {
+  .sitemap{
+    height: 40vh;
+  }
+  
+}
+
+@media (max-height: 500px) {
+  .sitemap{
+    height: 60vh;
+  }
+}
+
+
+
+@media (max-height: 320px) {
+  .sitemap{
+    height: 65vh;
+  }
 }

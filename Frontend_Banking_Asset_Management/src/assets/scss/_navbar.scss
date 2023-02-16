@@ -121,12 +121,12 @@ a.nav-link:hover {
   color: #2a3d4f;
   cursor: pointer;
   font-size: 0.8em;
-  padding: 1rem;
+
   border: 0;
   transition: all 0.5s;
   border-radius: 30px;
   position: relative;
-  width: 140px;
+  width: 120px;
   height: 48px;
 
   &:hover {
@@ -190,9 +190,6 @@ img.nav-logo-img {
   top: 0;
   left: 30vw;
   z-index: 3;
-  
-
-  
 }
 
 #toggle {
@@ -240,7 +237,7 @@ img.nav-logo-img {
   .button-nav-logout {
     font-size: 0.6em;
     width: 70px;
-    height: 48px;
+    height: 42px;
   }
   .nav-list li a {
     font-size: 0.6rem;
@@ -251,33 +248,23 @@ img.nav-logo-img {
 }
 
 @media (max-width: 768px) {
-
   .hamburger-container {
     position: fixed;
     top: 3vh;
     left: 100vw;
     z-index: 3;
-    
-    
-  
-    
   }
   .hamburger {
     display: flex;
-    
+
     width: 3vw;
     font-size: 30px;
-    font-weight: bold;    
-  
-    text-shadow: rgba(0, 0, 0, 0.41) 0px 5px 15px;
- 
+    font-weight: bold;
 
-   
-   
-  
+    text-shadow: rgba(0, 0, 0, 0.41) 0px 5px 15px;
+
     cursor: pointer;
     color: #2a3d4f;
-  
   }
   .nav {
     height: 200px;
@@ -291,7 +278,7 @@ img.nav-logo-img {
     width: 50%;
     font-size: 0.8rem;
     margin: 0 auto;
-   
+
     justify-content: space-around;
     text-align: center;
     gap: 5px;
@@ -313,11 +300,13 @@ img.nav-logo-img {
     height: 30px;
   }
 
+  .button-nav-logout {
+    height: 30px;
+  }
+
   .nav-list-hide {
     display: none;
   }
-
-
 
   a.nav-link:hover {
     color: #535353;
@@ -327,17 +316,41 @@ img.nav-logo-img {
   }
 }
 @media (max-width: 480px) {
-
   .button-nav-signup {
     width: 56px;
   }
 
   .button-nav-login {
     width: 56px;
-    
+  }
+
+  .button-nav-logout {
+    width: 56px;
   }
 }
 @media (max-width: 320px) {
 }
 @media (max-width: 200px) {
+}
+
+/* <------------------------------> */
+
+/* Height Responsiveness */
+
+@media (max-height: 2000px) {
+}
+
+@media (max-height: 800px) {
+}
+
+@media (max-height: 600px) {
+}
+
+@media (max-height: 500px) {
+}
+
+@media (max-height: 450px) {
+}
+
+@media (max-height: 320px) {
 }

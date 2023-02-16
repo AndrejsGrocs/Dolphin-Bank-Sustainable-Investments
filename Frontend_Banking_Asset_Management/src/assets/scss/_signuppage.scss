@@ -91,15 +91,7 @@
 
 .signup-buttons-container {
   position: relative;
-
-
 }
-
-
-
-
-
-
 
 /*<------------------------------------>*/
 
@@ -115,42 +107,56 @@
 }
 
 @media (max-width: 768px) {
-
-  .button-signup{
+  .button-signup {
     width: 170px;
-
   }
 
-  .forgot-password{
+  .forgot-password {
     font-size: 1.2rem;
   }
-
 }
 
 @media (max-width: 600px) {
 }
 
 @media (max-width: 480px) {
-
-  .button-signup{
+  .button-signup {
     width: 150px;
-
   }
 
-  .forgot-password{
+  .forgot-password {
     font-size: 1rem;
   }
-
 }
 
 @media (max-width: 320px) {
-  .button-signup{
+  .button-signup {
     width: 100px;
-
   }
 
-
-  .forgot-password{
+  .forgot-password {
     font-size: 0.8rem;
   }
+}
+
+/* <------------------------------> */
+
+/* Height Responsiveness */
+
+@media (max-height: 2000px) {
+}
+
+@media (max-height: 800px) {
+}
+
+@media (max-height: 600px) {
+}
+
+@media (max-height: 500px) {
+}
+
+@media (max-height: 450px) {
+}
+
+@media (max-height: 320px) {
 }

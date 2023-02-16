@@ -78,7 +78,6 @@
 
 .t-history-text {
   position: relative;
- 
 
   color: #2a3d4f;
   font-family: "Poppins", sans-serif;
@@ -177,7 +176,6 @@
 .transactions-list {
   position: relative;
   top: 75px;
-
 }
 
 .arrow-image-green {
@@ -329,7 +327,7 @@
     margin: 0 auto;
   }
 
-  .history-transfer-button{
+  .history-transfer-button {
     top: 95px;
   }
 }
@@ -343,10 +341,7 @@
 }
 
 @media (max-width: 480px) {
-  .account-balance {
-  }
-
-  .transactions-list{
+  .transactions-list {
     top: 100px;
   }
 
@@ -391,4 +386,26 @@
     width: 95%;
     height: 120px;
   }
+}
+
+/* <------------------------------> */
+
+/* Height Responsiveness */
+
+@media (max-height: 2000px) {
+}
+
+@media (max-height: 800px) {
+}
+
+@media (max-height: 600px) {
+}
+
+@media (max-height: 500px) {
+}
+
+@media (max-height: 450px) {
+}
+
+@media (max-height: 320px) {
 }

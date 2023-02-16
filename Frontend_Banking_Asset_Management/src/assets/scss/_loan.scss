@@ -16,10 +16,30 @@
   align-items: center;
 }
 
-
-@media (max-width: 768px){
-  .loan{
+@media (max-width: 768px) {
+  .loan {
     height: 50vh;
   }
+}
 
+/* <------------------------------> */
+
+/* Height Responsiveness */
+
+@media (max-height: 2000px) {
+}
+
+@media (max-height: 800px) {
+}
+
+@media (max-height: 600px) {
+}
+
+@media (max-height: 500px) {
+}
+
+@media (max-height: 450px) {
+}
+
+@media (max-height: 320px) {
 }
