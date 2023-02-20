@@ -19,7 +19,7 @@
 
 .login-form {
   position: relative;
-  top: 35vh;
+  top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,6 +148,14 @@ label.input-login:focus {
 }
 
 @media (max-height: 800px) {
+
+  .input-login{
+    height: 30px;
+  }
+
+  .login-button{
+    height: 30px;
+  }
 }
 
 @media (max-height: 600px) {
@@ -157,7 +165,14 @@ label.input-login:focus {
 }
 
 @media (max-height: 450px) {
+  .image-login-page{
+    height: 130%;
+  }
 }
 
-@media (max-height: 320px) {
+@media (max-height: 350px) {
+
+  .image-login-page{
+    height: 150%;
+  }
 }

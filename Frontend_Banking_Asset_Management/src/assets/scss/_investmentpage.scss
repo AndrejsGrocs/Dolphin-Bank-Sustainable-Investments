@@ -196,16 +196,53 @@
 }
 
 @media (max-height: 800px) {
+  .investment-page-texts{
+    top: 45vh;
+  }
+
+
 }
 
 @media (max-height: 600px) {
+  .investment-page-texts{
+    top: 50vh;
+  }
+
+  .investment-page-banner-header{
+    top: 30vh;
+    font-size: 1rem;
+  }
+
+
 }
 
 @media (max-height: 500px) {
 }
 
 @media (max-height: 450px) {
+  .investment-page-texts{
+    top: 65vh;
+  }
+
+  .investment-page-text {
+    font-size: 1.2rem;
+  }
+
+  .investment-page-text-h1 {
+    font-size: 1.2rem;
+  }
+
+
 }
 
 @media (max-height: 320px) {
+
+  .investment-page-banner-header{
+    top: 35vh;
+    font-size: 0.8rem;
+  }
+
+  .investment-page-texts{
+    top: 80vh;
+  }
 }

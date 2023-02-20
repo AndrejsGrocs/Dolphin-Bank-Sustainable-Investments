@@ -19,7 +19,7 @@
 
 .signup-form {
   position: relative;
-  top: 21vh;
+  top: 170px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,10 +41,11 @@
 }
 
 .button-signup {
+  position: relative;
   background-color: #fbc78d;
   color: #2a3d4f;
-  width: 200px;
   height: 5vh;
+  width: 200px;
   border-radius: 30px;
   margin: 0 auto;
   margin-top: 20px;
@@ -147,16 +148,35 @@
 }
 
 @media (max-height: 800px) {
+  .button-signup{
+    height: 30px;
+  }
 }
 
-@media (max-height: 600px) {
+@media (max-height: 650px) {
+  .image-signup-page{
+    height: 120%;
+
+  }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 550px) {
+  .image-signup-page{
+    height: 130%;
+
+  }
 }
 
-@media (max-height: 450px) {
+@media (max-height: 480px) {
+  .image-signup-page{
+    height: 170%;
+
+  }
 }
 
-@media (max-height: 320px) {
+@media (max-height: 350px) {
+  .image-signup-page{
+    height: 200%;
+
+  }
 }
