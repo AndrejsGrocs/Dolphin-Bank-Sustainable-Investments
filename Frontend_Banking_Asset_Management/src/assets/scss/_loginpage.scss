@@ -19,7 +19,7 @@
 
 .login-form {
   position: relative;
-  top: 200px;
+  top: 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,6 +98,30 @@ label.input-login:focus {
   object-position: 80% 60%;
 }
 
+.test-login-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 3vh;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #2a3d4f;
+  width: 30%;
+  height: 30%;
+  opacity: 0.7;
+}
+
+.test-login-info-h1 {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.test-login-info-text {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
 /*<------------------------------------>*/
 
 /* Responsiveness section */
@@ -106,6 +130,9 @@ label.input-login:focus {
 }
 
 @media (max-width: 1200px) {
+  .test-login-info {
+    width: 50vw;
+  }
   .input-login {
     width: 50vw;
     right: 10vw;
@@ -113,6 +140,14 @@ label.input-login:focus {
 }
 
 @media (max-width: 960px) {
+  .test-login-info-h1 {
+    font-size: 1.5rem;
+  }
+
+  .test-login-info-text {
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+  }
 }
 
 @media (max-width: 768px) {
@@ -122,6 +157,8 @@ label.input-login:focus {
 }
 
 @media (max-width: 600px) {
+
+
   .input-login {
     width: 60vw;
     right: 15vw;
@@ -129,14 +166,34 @@ label.input-login:focus {
 }
 
 @media (max-width: 480px) {
+
+  .test-login-info{
+    width: 80vw;
+  }
   .login-button {
     width: 150px;
+  }
+  .test-login-info-h1 {
+    font-size: 1.1rem;
+  }
+
+  .test-login-info-text {
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 320px) {
+  
   .login-button {
     width: 100px;
+  }
+
+  .test-login-info-h1 {
+    font-size: 1rem;
+  }
+
+  .test-login-info-text {
+    font-size: 0.8rem;
   }
 }
 
@@ -148,31 +205,35 @@ label.input-login:focus {
 }
 
 @media (max-height: 800px) {
-
-  .input-login{
+  .input-login {
     height: 30px;
   }
 
-  .login-button{
+  .login-button {
     height: 30px;
   }
 }
 
 @media (max-height: 600px) {
+  .image-login-page{
+    height: 120%;
+  }
 }
 
 @media (max-height: 500px) {
+  .image-login-page{
+    height: 140%;
+  }
 }
 
 @media (max-height: 450px) {
-  .image-login-page{
-    height: 130%;
+  .image-login-page {
+    height: 160%;
   }
 }
 
 @media (max-height: 350px) {
-
-  .image-login-page{
-    height: 150%;
+  .image-login-page {
+    height: 180%;
   }
 }
