@@ -110,7 +110,9 @@
 
 @media (max-width: 768px) {
   .image-account-page {
+    height: 120%;
     object-fit: cover;
+
   }
 
   .acc-header {
@@ -166,6 +168,12 @@
   }
 }
 
+
+
+
+
+
+
 /* <------------------------------> */
 
 /* Height Responsiveness */
@@ -191,6 +199,21 @@
 
 }
 
+@media (max-height: 700px){
+
+  .acc-header{
+    font-size: 1.5rem;
+    top: 150px;
+
+  }
+
+
+    .account-page-text{
+    
+  }
+
+}
+
 @media (max-height: 600px) {
 
 
@@ -198,9 +221,9 @@
 
 
   .acc-header{
-    font-size: 1.5rem;
+    
     top: 150px;
-
+    font-size: 1.2rem;
   }
 
 
@@ -214,6 +237,9 @@
     font-size: 12px;
   }
 }
+
+
+
 
 @media (max-height: 500px) {
 
@@ -244,4 +270,41 @@
     height: 150%;
   }
 
+  .acc-header{
+    font-size: 0.8rem;
+ 
+
+  }
+
+  .account-page-text{
+    font-size: 0.7rem;
+  }
+
 }
+
+
+/* Combined Responsiveness */
+
+
+
+
+
+/*@media screen and (max-width: 360px), 
+       screen and (max-height: 600px) {
+
+        .acc-header{
+          font-size: 0.8rem;
+       
+      
+        }
+      
+        .account-page-text{
+          font-size: 0.8rem;
+        }
+
+        .image-account-page{
+          height: 100%;
+        }
+  }
+  */
+
