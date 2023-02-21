@@ -10,9 +10,9 @@
 # [Dolphin Bank Online](https://dolphin-bank.herokuapp.com/)
 
 
-## Some features of the App is still under construction !!!
+## App is 100% Responsive.
 
-# Update 03.02.2023: In Progress Now: Smaller screen responsiveness will be available soon! 
+ 
 
 
 <br/>
