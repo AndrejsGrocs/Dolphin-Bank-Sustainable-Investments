@@ -16,7 +16,7 @@ export default function InvestmentPage() {
 
       <div className="investment-page-texts">
         <p className="investment-page-text">
-        Whether with impact funds, an impact portfolio, savings plans or crowdinvesting - discover your impact investment with Dolphin Bank.
+        Whether with impact funds, an impact portfolio, savings plans, or crowd-investing - discover your impact investment with Dolphin Bank.
         </p>
        
 
